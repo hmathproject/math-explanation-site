@@ -167,7 +167,7 @@ def draw_case(ax: matplotlib.axes.Axes, case: dict) -> None:
 
     # パネルタイトル
     cx = (X_LO + X_HI) / 2
-    ax.text(cx, Y_HI + 0.4, case["title"],
+    ax.text(cx, Y_HI + 0.15, case["title"],
             ha="center", va="bottom", fontsize=10, fontweight="bold")
 
 
