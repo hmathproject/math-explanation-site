@@ -252,3 +252,4 @@ git push
 | `docs/README_integrated_format.md` | フォーマット仕様の全体像 |
 | `manuscripts/二次関数_最小値_固定区間_integrated_exp.md` | 書式の手本（最も参照すべき） |
 | `scripts/build_exp_pdf.py` | ビルドスクリプト本体 |
+| `site/docs/PDF_QUALITY_CHECK.md` | ビルド後の品質チェック標準（機械的・目視・図・初出記号） |
