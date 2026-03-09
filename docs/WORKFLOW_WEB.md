@@ -229,6 +229,14 @@ git push
 
 ---
 
+## テーマ体系・制作ロードマップ
+
+公開テーマの全体像・粒度基準・制作優先順位（Tier 1〜3）は以下を参照。
+
+**[docs/THEME_ROADMAP.md](docs/THEME_ROADMAP.md)**
+
+---
+
 ## _layouts/default.html の現状
 
 MathJax 設定・CSS の要点：
