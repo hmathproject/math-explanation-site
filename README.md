@@ -97,3 +97,14 @@ Phase 2 記事を追加したら `index.md` の「準備中の記事」テーブ
 | `二次関数_最大値_固定区間.md` | `manuscripts/二次関数_最大値_固定区間_integrated_exp.md` |
 | `assets/images/*.png` | `figures/` 以下の combined 図 |
 | `assets/pdf/*.pdf` | `pdf/packs/二次関数_最大最小_完全版.pdf` |
+
+---
+
+## 制作フロー・運用ルール
+
+Web 制作の標準フロー（役割分担・記事追加手順・図生成・数式記法・git 運用方針）は以下を参照してください。
+
+**[docs/WORKFLOW_WEB.md](docs/WORKFLOW_WEB.md)**
+
+このファイルは Jekyll 公開対象外（`_config.yml: exclude: docs/`）のリポジトリ内運用文書です。
+チャットが変わった場合はまずこのファイルを読んでください。
