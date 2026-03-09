@@ -9,16 +9,16 @@
 
 ```
 site/
-  README.md                              ← このファイル
-  index.md                               ← 単元トップページ
-  二次関数_最小値_固定区間.md            ← 記事1：最小値（固定区間・軸が動く）
-  二次関数_最大値_固定区間.md            ← 記事2：最大値（固定区間・軸が動く）
+  README.md                                  ← このファイル
+  index.md                                   ← 単元トップページ
+  quadratic-min-fixed-range.md               ← 記事1：最小値（固定区間・軸が動く）
+  quadratic-max-fixed-range.md               ← 記事2：最大値（固定区間・軸が動く）
   assets/
     images/
-      二次関数_最小値_固定区間_combined.png  ← 問1 方針図（3ケース）
-      二次関数_最大値_固定区間_combined.png  ← 問2 方針図（2ケース）
+      quadratic-min-fixed-range-combined.png ← 問1 方針図（3ケース）
+      quadratic-max-fixed-range-combined.png ← 問2 方針図（2ケース）
     pdf/
-      二次関数_最大最小_完全版.pdf          ← 4問パック解説PDF（無料配布用）
+      quadratic-max-min-pack.pdf             ← 4問パック解説PDF（無料配布用）
 ```
 
 ---
@@ -28,8 +28,8 @@ site/
 | ファイル | 役割 |
 |---|---|
 | `index.md` | 単元の全体像と記事一覧。PDF案内も置く |
-| `二次関数_最小値_固定区間.md` | 問1解説（軸の位置で3ケース場合分け） |
-| `二次関数_最大値_固定区間.md` | 問2解説（軸から遠い端点で2ケース場合分け） |
+| `quadratic-min-fixed-range.md` | 問1解説（軸の位置で3ケース場合分け） |
+| `quadratic-max-fixed-range.md` | 問2解説（軸から遠い端点で2ケース場合分け） |
 | `assets/images/` | 記事内で使う方針図（matplotlibで生成） |
 | `assets/pdf/` | 読者に配布する解説PDF |
 
