@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 二次関数の最大値・最小値
+permalink: /
 ---
 
 # 二次関数の最大値・最小値
@@ -37,7 +38,7 @@ title: 二次関数の最大値・最小値
 
 ## 解説記事
 
-### [最小値を求める（固定区間・軸が動く）](./quadratic-min-fixed-range.html)
+### [最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)
 
 \\( 0 \leq x \leq 1 \\) という固定された区間で、軸 \\( x = a \\) がパラメータ \\( a \\) とともに動くときの最小値を求めます。
 
@@ -45,7 +46,7 @@ title: 二次関数の最大値・最小値
 
 ---
 
-### [最大値を求める（固定区間・軸が動く）](./quadratic-max-fixed-range.html)
+### [最大値を求める（固定区間・軸が動く）](/quadratic-max-fixed-range/)
 
 前の問題と同じ「固定区間・軸が動く」設定で、今度は**最大値**を求めます。
 
@@ -68,4 +69,4 @@ title: 二次関数の最大値・最小値
 
 模範解答と「なぜその式変形をするのか」の意味説明を2段組で並べた構成で、各ケースを図と照らしながら確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](./assets/pdf/quadratic-max-min-pack.pdf)
+[PDFをダウンロードする（無料）](/assets/pdf/quadratic-max-min-pack.pdf)

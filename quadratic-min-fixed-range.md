@@ -1,9 +1,10 @@
 ---
 layout: default
 title: 二次関数の最小値（固定区間）
+permalink: /quadratic-min-fixed-range/
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](./index.md)
+← [単元トップへ：二次関数の最大値・最小値](/)
 
 ---
 
@@ -39,7 +40,7 @@ $$
 
 軸 \\( x = a \\) が \\( 0 \leq x \leq 1 \\) の範囲に対してどこにあるか——この位置関係だけを見れば、最小点の場所は自然に決まります。
 
-![3ケースのグラフ](./assets/images/quadratic-min-fixed-range-combined.png)
+![3ケースのグラフ](/assets/images/quadratic-min-fixed-range-combined.png)
 
 **軸が範囲の左側（\\( a \leq 0 \\)）**
 
@@ -116,8 +117,8 @@ $$
 
 この問題を含む4問（固定区間2問・区間が動く2問）の解説PDFを無料で配布しています。模範解答と意味説明を2段組で並べた構成で、各ケースのグラフと照らしながら場合分けの流れを確認できます。
 
-[PDFをダウンロードする（無料）](./assets/pdf/quadratic-max-min-pack.pdf)
+[PDFをダウンロードする（無料）](/assets/pdf/quadratic-max-min-pack.pdf)
 
 ---
 
-→ [次の記事：最大値を求める（固定区間・軸が動く）](./quadratic-max-fixed-range.md)
+→ [次の記事：最大値を求める（固定区間・軸が動く）](/quadratic-max-fixed-range/)

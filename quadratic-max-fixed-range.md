@@ -1,9 +1,10 @@
 ---
 layout: default
 title: 二次関数の最大値（固定区間）
+permalink: /quadratic-max-fixed-range/
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](./index.md)　／　← [前の記事：最小値を求める（固定区間・軸が動く）](./quadratic-min-fixed-range.md)
+← [単元トップへ：二次関数の最大値・最小値](/)　／　← [前の記事：最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)
 
 ---
 
@@ -39,7 +40,7 @@ $$
 
 軸 \\( x = a \\) から左端 \\( x = 0 \\) までの距離と、右端 \\( x = 1 \\) までの距離を比べます。その境界は、\\( 0 \leq x \leq 1 \\) の**中点** \\( x = \dfrac{1}{2} \\) です。
 
-![2ケースのグラフ](./assets/images/quadratic-max-fixed-range-combined.png)
+![2ケースのグラフ](/assets/images/quadratic-max-fixed-range-combined.png)
 
 **軸が中点より左（\\( a < \dfrac{1}{2} \\)）**
 
@@ -105,8 +106,8 @@ $$
 
 この問題を含む4問（固定区間2問・区間が動く2問）の解説PDFを無料で配布しています。模範解答と意味説明を2段組で並べた構成で、最小値・最大値それぞれのケース構造を図と照らしながら比較できます。
 
-[PDFをダウンロードする（無料）](./assets/pdf/quadratic-max-min-pack.pdf)
+[PDFをダウンロードする（無料）](/assets/pdf/quadratic-max-min-pack.pdf)
 
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](./index.md)
+← [単元トップへ：二次関数の最大値・最小値](/)

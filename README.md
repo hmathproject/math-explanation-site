@@ -38,23 +38,25 @@ site/
 ## リンク構造
 
 ```
-index.md
-  ├─→ 二次関数_最小値_固定区間.md
-  ├─→ 二次関数_最大値_固定区間.md
-  └─→ assets/pdf/二次関数_最大最小_完全版.pdf
+/ (index.md, permalink: /)
+  ├─→ /quadratic-min-fixed-range/
+  ├─→ /quadratic-max-fixed-range/
+  └─→ /assets/pdf/quadratic-max-min-pack.pdf
 
-二次関数_最小値_固定区間.md
-  ├─← index.md
-  ├─→ 二次関数_最大値_固定区間.md（次の記事）
-  └─→ assets/pdf/...
+/quadratic-min-fixed-range/ (quadratic-min-fixed-range.md)
+  ├─← /
+  ├─→ /quadratic-max-fixed-range/（次の記事）
+  ├─→ /assets/images/quadratic-min-fixed-range-combined.png
+  └─→ /assets/pdf/quadratic-max-min-pack.pdf
 
-二次関数_最大値_固定区間.md
-  ├─← index.md
-  ├─← 二次関数_最小値_固定区間.md（前の記事）
-  └─→ assets/pdf/...
+/quadratic-max-fixed-range/ (quadratic-max-fixed-range.md)
+  ├─← /
+  ├─← /quadratic-min-fixed-range/（前の記事）
+  ├─→ /assets/images/quadratic-max-fixed-range-combined.png
+  └─→ /assets/pdf/quadratic-max-min-pack.pdf
 ```
 
-すべてのリンクは `./` からの相対パスで記述しています。ディレクトリをまとめて別の場所に移しても構造が壊れません。
+すべてのリンクはサイトルートからの絶対パスで記述しています。Jekyll の permalink 設定により、Cloudflare Pages 上で `.md` が見えない URL で動作します。
 
 ---
 
