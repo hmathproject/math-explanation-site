@@ -221,6 +221,14 @@ git push
 
 ---
 
+## PDF制作標準
+
+サイト向け PDF の制作標準（integrated_exp フォーマット・ビルド手順・記法ルール）は以下を参照。
+
+**[docs/PDF_STANDARD.md](docs/PDF_STANDARD.md)**
+
+---
+
 ## _layouts/default.html の現状
 
 MathJax 設定・CSS の要点：
