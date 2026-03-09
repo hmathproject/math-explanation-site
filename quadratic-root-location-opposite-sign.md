@@ -4,6 +4,19 @@ title: 解の配置（2解が異符号）
 permalink: /quadratic-root-location-opposite-sign/
 ---
 
+<!-- 図設計メモ（gen_figures_rl2.py）
+記事名: 解の配置（2解が異符号）
+図の役割: f(0)<0 の意味を放物線で示す。x=0 でx軸より下になる → 左右に1解ずつある構造。
+         f(0)>0（同符号）との対比で、f(0)の符号が解の配置を何を決めているかを視覚化する
+ケース数: 2
+  ケース1: f(0)<0（異符号：x<0 に1解・x>0 に1解）
+  ケース2: f(0)>0（同符号：2解ともに正または負→異符号でない配置のイメージ）
+figsize案: (9.0, 4.5)（2ケース標準）
+スクリプト案: scripts/gen_figures_rl2.py
+出力PNG案: assets/images/quadratic-root-location-opposite-sign-combined.png
+図の挿入位置: 「まず確認すること」セクション末尾（f(0)の符号の意味を視覚化した後、条件提示へ）
+-->
+
 ← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解が同符号](/quadratic-root-location-same-sign/)
 
 ---
@@ -23,6 +36,10 @@ permalink: /quadratic-root-location-opposite-sign/
 「2解が異符号」とは、解の1つが正で、もう1つが負の状態です。放物線 \\( y = f(x) \\) で考えると、「\\( x \\) 軸の正の側と負の側にそれぞれ1点ずつ交わる」ことを意味します。
 
 このとき、放物線は必ず \\( x = 0 \\) でx軸と交差します。つまり \\( f(0) \\) の符号が決め手になります。
+
+下の図で、\\( f(0) < 0 \\)（左：異符号）と \\( f(0) > 0 \\)（右：同符号）の違いを確認してください。\\( x = 0 \\) でのy値の符号が、解の配置を直接決めていることが見えます。
+
+![解の配置（2解が異符号）：f(0)の符号と解の位置の関係](/assets/images/quadratic-root-location-opposite-sign-combined.png)
 
 ---
 

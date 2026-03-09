@@ -4,6 +4,20 @@ title: 解の配置（2解が同符号）
 permalink: /quadratic-root-location-same-sign/
 ---
 
+<!-- 図設計メモ（gen_figures_rl1.py）
+記事名: 解の配置（2解が同符号）
+図の役割: 「2解がともに正」「2解がともに負」の放物線配置を横並びで示す。
+         各条件（D≥0・f(0)>0・軸の位置）が何を保証しているかを
+         放物線とx軸の位置関係から読み取らせる
+ケース数: 2
+  ケース1: 2解がともに正（放物線が x>0 の範囲でx軸と2点交差、f(0)>0、軸>0）
+  ケース2: 2解がともに負（放物線が x<0 の範囲でx軸と2点交差、f(0)>0、軸<0）
+figsize案: (9.0, 4.5)（2ケース標準）
+スクリプト案: scripts/gen_figures_rl1.py
+出力PNG案: assets/images/quadratic-root-location-same-sign-combined.png
+図の挿入位置: 「2解がともに正になる3条件」セクション冒頭（条件列挙の前）
+-->
+
 ← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
 
 ---
@@ -31,6 +45,10 @@ permalink: /quadratic-root-location-same-sign/
 ## 2解がともに正になる3条件
 
 放物線 \\( y = f(x) \\) が「\\( x > 0 \\) の範囲に2点でx軸と交わる」ためには、次の3条件がすべて必要です。
+
+まず下の図で、「ともに正」（左）と「ともに負」（右）の放物線の形がどう違うかを確認してください。
+
+![解の配置（2解が同符号）：ともに正とともに負の放物線配置](/assets/images/quadratic-root-location-same-sign-combined.png)
 
 **条件1: 判別式 \\( D \\geq 0 \\)**
 

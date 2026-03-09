@@ -4,6 +4,19 @@ title: 解の配置（解が区間を挟む）
 permalink: /quadratic-root-location-one-in-interval/
 ---
 
+<!-- 図設計メモ（gen_figures_rl4.py）
+記事名: 解の配置（解が区間を挟む）
+図の役割: f(α)とf(β)の符号が逆になる2パターンを示し、どちらも「区間の内と外に1解ずつ」
+         になることを視覚化する。前記事（3条件）との条件数の違いを際立たせる
+ケース数: 2
+  ケース1: f(0)>0 かつ f(3)<0（x=3 の右外に1解・区間内に1解）
+  ケース2: f(0)<0 かつ f(3)>0（x=0 の左外に1解・区間内に1解）
+figsize案: (9.0, 4.5)（2ケース標準）
+スクリプト案: scripts/gen_figures_rl4.py
+出力PNG案: assets/images/quadratic-root-location-one-in-interval-combined.png
+図の挿入位置: 「解が区間を挟む1条件」セクション内（条件の意味を図で確認）
+-->
+
 ← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解がともに区間内](/quadratic-root-location-both-in-interval/)
 
 ---
@@ -31,6 +44,10 @@ permalink: /quadratic-root-location-one-in-interval/
 \\( f(0) \\) と \\( f(3) \\) の符号が逆——すなわち \\( f(0) \cdot f(3) < 0 \\) が成り立てば、放物線は \\( x = 0 \\) と \\( x = 3 \\) の間で必ずx軸を横切ります。これが解が区間内に1つ存在することを保証します。
 
 連続な関数が \\( x = 0 \\) と \\( x = 3 \\) で異なる符号をとるならば、中間値の定理によりその間で必ず0になる点が存在します——これが「区間内の解」です。
+
+下の図で、\\( f(0) > 0 \\) かつ \\( f(3) < 0 \\)（左）と \\( f(0) < 0 \\) かつ \\( f(3) > 0 \\)（右）の2パターンを確認してください。どちらの場合も区間 \\( (0, 3) \\) の内と外に1解ずつあることが見えます。
+
+![解の配置（解が区間を挟む）：f(0)とf(3)が異符号の2パターン](/assets/images/quadratic-root-location-one-in-interval-combined.png)
 
 ---
 

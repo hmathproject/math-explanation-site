@@ -4,6 +4,20 @@ title: 解の配置（2解がともに区間内）
 permalink: /quadratic-root-location-both-in-interval/
 ---
 
+<!-- 図設計メモ（gen_figures_rl3.py）
+記事名: 解の配置（2解がともに区間内）
+図の役割: 3条件がそれぞれ何を排除しているかを、NGパターンと正解パターンで示す
+ケース数: 4
+  ケース1: 正解配置（D≥0・f(0)>0・f(3)>0・0<軸<3 をすべて満たす）
+  ケース2: D<0 のとき（交点なし）→ 条件1（判別式）が必要な理由
+  ケース3: f(3)≤0 のとき（x=3 が2解の内側に入る）→ 条件2（端点の符号）が必要な理由
+  ケース4: 軸が 0<軸<3 を外れるとき（解の一方が区間外）→ 条件3（軸の位置）が必要な理由
+figsize案: (18.0, 4.5)（4ケース）
+スクリプト案: scripts/gen_figures_rl3.py
+出力PNG案: assets/images/quadratic-root-location-both-in-interval-combined.png
+図の挿入位置: 「条件の読み取り」セクション末尾・「3条件の役割」の直前
+-->
+
 ← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解が異符号](/quadratic-root-location-opposite-sign/)
 
 ---
@@ -23,6 +37,10 @@ permalink: /quadratic-root-location-both-in-interval/
 「2解がともに \\( (0, 3) \\) 内」とは、放物線 \\( y = f(x) \\) がx軸と交わる2点の \\( x \\) 座標がどちらも \\( 0 < x < 3 \\) にあることです。
 
 この配置を放物線の形で保証するためには、次の3つの条件がすべて必要です。
+
+下の図で、正しい配置（左端）と各条件を欠いたときの「不正な配置」3パターンを見てから、各条件の役割を確認してください。
+
+![解の配置（2解がともに区間内）：正しい配置と各条件の役割](/assets/images/quadratic-root-location-both-in-interval-combined.png)
 
 ---
 
