@@ -38,7 +38,7 @@ $$
 
 軸 \\( x = 1 \\) が区間 \\( a \leq x \leq a+1 \\) に対してどこにあるか——この位置関係だけを見れば、最小点の場所は自然に決まります。
 
-<!-- ![3ケースのグラフ](/assets/images/quadratic-min-moving-range-combined.png) -->
+![3ケースのグラフ](/assets/images/quadratic-min-moving-range-combined.png)
 
 **軸が区間の右外（\\( a \leq 0 \\)）**
 
