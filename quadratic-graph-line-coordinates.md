@@ -103,7 +103,7 @@ $$
 
 ## もっと練習したい方へ
 
-この単元全3問（共有点の個数・座標・面積）の解説PDFをダウンロードできます。
+この単元全3問（共有点の個数・座標・三角形の面積）の解説PDFをダウンロードできます。
 
 [PDFをダウンロードする（無料）](/assets/pdf/quadratic-graph-line-pack.pdf)
 
@@ -111,4 +111,4 @@ $$
 
 ← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)
 
-→ [次の記事：放物線と直線で囲まれた面積](/quadratic-graph-line-area/)
+→ [次の記事：2交点と原点でできる三角形の面積](/quadratic-graph-line-area/)
