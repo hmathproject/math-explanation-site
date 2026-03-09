@@ -229,6 +229,15 @@ git push
 
 ---
 
+## 図設計自立判定ルール
+
+テーマ骨格を作る前に `docs/FIGURE_DESIGN.md` の判定フロー（§1）を実行する。
+図必須と判定したテーマでは、骨格段階で図設計メモ・スクリプト命名・placeholder まで出す。
+
+**[docs/FIGURE_DESIGN.md](docs/FIGURE_DESIGN.md)**
+
+---
+
 ## テーマ体系・制作ロードマップ
 
 公開テーマの全体像・粒度基準・制作優先順位（Tier 1〜3）は以下を参照。
