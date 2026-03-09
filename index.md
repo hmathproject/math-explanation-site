@@ -21,3 +21,9 @@ permalink: /
 ### [二次不等式の解法](/quadratic-inequality/)
 
 放物線とx軸の位置関係で考える（全4記事・解説PDF付き）
+
+---
+
+### [二次関数の解の配置](/quadratic-root-location/)
+
+放物線の形から解の位置条件を読む（全4記事）
