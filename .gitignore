@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jekyll ビルド生成物
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node（将来 npm ベースのビルドを追加したとき）
+node_modules/
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
