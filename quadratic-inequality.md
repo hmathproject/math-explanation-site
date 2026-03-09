@@ -71,4 +71,4 @@ permalink: /quadratic-inequality/
 
 ---
 
-← [二次関数の最大値・最小値（前の単元）](/)
+← [二次関数の最大値・最小値（前の単元）](/quadratic-max-min/)

@@ -4,7 +4,7 @@ title: 二次関数の最大値（固定区間）
 permalink: /quadratic-max-fixed-range/
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](/)　／　← [前の記事：最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)
+← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)　／　← [前の記事：最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)
 
 ---
 
@@ -110,6 +110,6 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](/)
+← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)
 
 → [次の記事：最小値を求める（動く区間・軸が固定）](/quadratic-min-moving-range/)
