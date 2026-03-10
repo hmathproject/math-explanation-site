@@ -223,6 +223,23 @@ python3 scripts/quality_check.py
 
 ---
 
+## FP-14: 区間表記 [a,b] のブラケット残存
+
+**症状:** 閉区間を \\( [0,3] \\) や 区間 [a,b] のように角括弧で表記する。
+
+**正しい統一形式:**
+- 閉区間: \\( 0 \leq x \leq 3 \\) のように不等号で表す
+- 開区間: (a, b) 形式はそのまま（変換不要）
+
+**ルール:** reader-facing テキスト・問題文・説明文で区間を表すとき、閉区間は `\leq` を使う。
+
+**検知:**
+```bash
+grep -n '\[[0-9-][^]]*\]' site/*.md | grep -v '](http' | grep -v '/assets/'
+```
+
+---
+
 ## パターン別の検知コマンドまとめ
 
 ```bash
@@ -245,4 +262,8 @@ grep -R "## この解説の特徴\|## このサイトの特徴" site/ --include=
 
 # FP-12: manuscript Unicode 数学記号の欠落
 grep -rn "[≤≥√∈]" manuscripts/ --include="*_integrated_exp.md"
+
+# FP-14: 区間表記 [a,b] ブラケット残存（markdown リンクと code block は除外）
+grep -n '\[[0-9-][^]]*\]' site/*.md | grep -v '](http' | grep -v '/assets/'
 ```
+
