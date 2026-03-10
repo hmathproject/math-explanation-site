@@ -73,6 +73,17 @@ python3 scripts/quality_check.py
 
 ---
 
+## チーム役割分担
+
+| 担当 | 役割 |
+|---|---|
+| **Claude Code** | 記事本文・manuscript・図・PDF・導線更新まで主担当。既存 manuscripts のフォーマットを参照して自律的に完結する |
+| **Codex** | 機械的検査・修正案生成・grep/差分監査（Claude Code が委譲・レビュー・採否決定） |
+| **ChatGPT** | 設計・レビュー・失敗分析・方針整理（manuscript 作成は担当しない） |
+| **ユーザー** | 数学的内容の最終確認（数式ミスがないか） |
+
+---
+
 ## 次に何を読むか
 
 1. 全体構想と役割分担: `PROJECT_OVERVIEW.md`
@@ -82,3 +93,5 @@ python3 scripts/quality_check.py
 5. 単元トップ更新: `UNIT_TOP_TEMPLATE.md`
 6. 執筆後の確認: `WRITING_CHECKLIST.md`
 7. 既知の失敗例: `FAILURE_PATTERNS.md`
+8. Codex 向けガイダンス: `AGENTS.md`
+9. Codex 委譲ポリシー（routing rules・wrapper・ログ）: `docs/CODEX_DELEGATION.md`

@@ -465,6 +465,16 @@ site/docs/UNIT_TOP_TEMPLATE.md ← 単元トップを作成・更新するとき
 2. `ARTICLE_TEMPLATE.md` で3類型から型を選択する（グラフ主役型 / 定義・概念型 / 計算・性質型）
 3. 図が必要（グラフ主役型）なら `gen_figures_*.py` を先に作成・実行し、PNG の実在を確認する
 4. 記事本文を執筆する（「なぜ」の説明を計算セクションより前に配置）
+
+   **[Optional] 機械的検査を Codex に委譲する場合:**
+   ```bash
+   # 例: quality_check.py ERROR の整理を委譲する
+   bash scripts/run_codex_task.sh analyze \
+     "Run python3 scripts/quality_check.py and summarize all ERRORs."
+   # Codex 結果を logs/codex/ で確認後、Claude Code が採否を決定する
+   ```
+   委譲可能なタスクの詳細は `docs/CODEX_DELEGATION.md §3 Routing Rules B` を参照。
+
 5. `WRITING_CHECKLIST.md` を実行して自己検査する（commit 前必須）
 6. 単元トップを更新する（記事リンク追加・記事数カウント更新）
 7. PDF 完成後に PDF ボタンを追加する（`ls site/assets/pdf/[unit-slug]-pack.pdf` で local 実在確認後のみ）

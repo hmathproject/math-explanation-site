@@ -10,8 +10,11 @@
 | 担当 | 役割 |
 |---|---|
 | Claude Code | **記事本文・manuscript・図・PDF・導線更新まで主担当**。既存 manuscripts のフォーマットを参照して自律的に完結する |
+| Codex | 機械的検査・修正案生成（Claude Code が委譲・レビュー・採否決定） |
 | ChatGPT | 設計・レビュー・失敗分析・方針整理（integrated_exp manuscript の作成は担当しない） |
 | ユーザー | 数学的内容の最終確認（数式ミスがないか） |
+
+> Codex 委譲の詳細ルール（routing rules / wrapper / ログ）は `docs/CODEX_DELEGATION.md` を参照。
 
 ---
 
