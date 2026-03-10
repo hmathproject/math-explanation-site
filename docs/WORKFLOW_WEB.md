@@ -15,6 +15,12 @@
 
 Claude Code は原則として push まで実施する。確認待ちで止まらない。
 
+push 前の最小品質チェック:
+
+```bash
+python3 scripts/quality_check.py
+```
+
 ---
 
 ## 基本フロー（1単元・1記事追加の標準）

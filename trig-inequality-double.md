@@ -2,7 +2,7 @@
 layout: default
 title: 合成を使う三角不等式
 permalink: /trig-inequality-double/
-description: "sinθ − cosθ ≥ 1 を合成で √2 sin(θ − π/4) ≥ 1 に変換して解く方法を解説。合成後の変数範囲の確認と解区間の読み方を確認。"
+description: "sinθ − cosθ \\( \\geq 1 \\) を合成で \\( \\sqrt{2}\\sin(\\theta - \\pi/4) \\geq 1 \\) に変換して解く方法を解説。合成後の変数範囲の確認と解区間の読み方を確認。"
 ---
 
 [サイトトップ](/) / [三角関数](/trigonometry/) / [三角不等式](/trig-inequality/)
@@ -25,7 +25,7 @@ description: "sinθ − cosθ ≥ 1 を合成で √2 sin(θ − π/4) ≥ 1 に
 
 次の図で、合成後の変数 \\( u = \theta - \dfrac{\pi}{4} \\) の視点での解区間（左）と θ に戻した解区間（右）を確認しましょう。
 
-![左：sin(u)≥√2/2 の解区間、右：θに戻してπ/2≤θ≤π の塗りつぶし区間](/assets/images/trig-ineq-double.png)
+![左：sin(u) が \\( \\sqrt{2}/2 \\) 以上の解区間、右：θに戻して \\( \\pi/2 \\leq \\theta \\leq \\pi \\) となる塗りつぶし区間](/assets/images/trig-ineq-double.png)
 
 右図の塗りつぶし部分が解区間 \\( \dfrac{\pi}{2} \leq \theta \leq \pi \\) です。
 
@@ -107,4 +107,4 @@ $$
 
 ---
 
-← [前の記事：基本不等式 sinθ ≥ k, cosθ ≤ k](/trig-inequality-basic/)　／　[三角不等式](/trig-inequality/)　／　→ [次の記事：置換して二次不等式に帰着](/trig-inequality-quadratic/)
+← [前の記事：基本不等式 sinθ と cosθ](/trig-inequality-basic/)　／　[三角不等式](/trig-inequality/)　／　→ [次の記事：置換して二次不等式に帰着](/trig-inequality-quadratic/)

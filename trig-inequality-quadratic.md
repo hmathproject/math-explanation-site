@@ -2,7 +2,7 @@
 layout: default
 title: 置換して二次不等式に帰着
 permalink: /trig-inequality-quadratic/
-description: "2sin²θ − sinθ − 1 ≥ 0 を t = sinθ と置換して二次不等式で解き、t の結果を sin グラフから θ の範囲に戻す方法を解説。"
+description: "\\( 2\\sin^2\\theta - \\sin\\theta - 1 \\geq 0 \\) を \\( t = \\sin\\theta \\) と置換して二次不等式で解き、t の結果を sin グラフから θ の範囲に戻す方法を解説。"
 ---
 
 [サイトトップ](/) / [三角関数](/trigonometry/) / [三角不等式](/trig-inequality/)
@@ -25,7 +25,7 @@ description: "2sin²θ − sinθ − 1 ≥ 0 を t = sinθ と置換して二次
 
 次の図で、t の数直線での解（左）と sin グラフ上での θ の解区間（右）を確認しましょう。
 
-![左：t軸でt=-1〜-1/2と t=1 の解、右：sinグラフでθ=π/2とθ∈[7π/6,11π/6]の塗りつぶし](/assets/images/trig-ineq-quadratic.png)
+![左：t軸で \\( -1 \\leq t \\leq -1/2 \\) と \\( t=1 \\) の解、右：sinグラフで \\( \\theta=\\pi/2 \\) と \\( \\theta \\in [7\\pi/6,11\\pi/6] \\) の塗りつぶし](/assets/images/trig-ineq-quadratic.png)
 
 右図の赤い塗りつぶし部分と緑の点が解です。
 

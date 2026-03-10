@@ -2,7 +2,7 @@
 layout: default
 title: 合成を使う三角方程式
 permalink: /trig-equation-synthesis/
-description: "sinθ + √3 cosθ = 1 を合成して R sin(θ+φ) = c の形にしてから解く手順を解説。合成後の θ+φ の範囲確認が解の過不足を防ぐ理由を確認。"
+description: "sinθ + \\( \\sqrt{3} \\)cosθ = 1 を合成して R sin(θ+φ) = c の形にしてから解く手順を解説。合成後の θ+φ の範囲確認が解の過不足を防ぐ理由を確認。"
 ---
 
 [サイトトップ](/) / [三角関数](/trigonometry/) / [三角方程式](/trig-equation/)

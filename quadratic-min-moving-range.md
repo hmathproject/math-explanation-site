@@ -2,7 +2,7 @@
 layout: default
 title: 二次関数の最小値（動く区間）
 permalink: /quadratic-min-moving-range/
-description: "a≤x≤a+2 のように動く区間での二次関数の最小値を、軸と区間の位置関係で3ケースに分けてグラフで解説します。"
+description: "a から a+1 まで動く区間での二次関数の最小値を、軸と区間の位置関係で3ケースに分けてグラフで解説します。"
 ---
 
 [サイトトップ](/) / [二次関数](/quadratic/) / [最大値・最小値](/quadratic-max-min/)
