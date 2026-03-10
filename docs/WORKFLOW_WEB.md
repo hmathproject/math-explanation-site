@@ -427,3 +427,44 @@ PNG が未完成の場合は、`<img>` タグ行自体を commit に含めない
 **単元トップの学習順説明文も同時に更新する**
 
 `## 解説記事` セクションの各記事見出し下の説明文を、準備中テキストから実際の内容説明（学習のポイント）に書き換える。学習順（1本目 → 2本目 → 3本目）の文脈が読めるよう、各記事の説明は前の記事の知識を前提とした形にする。
+
+---
+
+## §11 Claude Code 主体執筆フロー（2026-03-10 追加）
+
+### 役割変更
+
+| 担当 | 旧フロー | 新フロー |
+|---|---|---|
+| ChatGPT | 記事本文作成 | 数学設計・manuscript 作成・失敗分析・レビュー |
+| Claude Code | 実装のみ | **記事本文主執筆 + 実装** |
+| ユーザー | 最終確認 | 数学的内容の最終確認（数式ミスがないか） |
+
+### 必須参照 docs（新記事執筆時）
+
+新記事を執筆するたびに以下の順で参照する:
+
+```
+site/docs/WRITING_SYSTEM.md    ← 最初に読む入口（全体把握）
+site/docs/ARTICLE_TEMPLATE.md  ← 3類型から型を選択してテンプレートを適用
+site/docs/FAILURE_PATTERNS.md  ← 既知の失敗を犯していないか確認
+site/docs/WRITING_CHECKLIST.md ← 執筆後に自己検査（commit 前必須）
+site/docs/UNIT_TOP_TEMPLATE.md ← 単元トップを作成・更新するとき
+```
+
+### 執筆フロー
+
+1. manuscript（problem + 数学ポイント）を受け取る
+2. `ARTICLE_TEMPLATE.md` で3類型から型を選択する（グラフ主役型 / 定義・概念型 / 計算・性質型）
+3. 図が必要（グラフ主役型）なら `gen_figures_*.py` を先に作成・実行し、PNG の実在を確認する
+4. 記事本文を執筆する（「なぜ」の説明を計算セクションより前に配置）
+5. `WRITING_CHECKLIST.md` を実行して自己検査する（commit 前必須）
+6. 単元トップを更新する（記事リンク追加・記事数カウント更新）
+7. PDF 完成後に PDF ボタンを追加する（`ls site/assets/pdf/[unit-slug]-pack.pdf` で local 実在確認後のみ）
+8. sitemap.xml 更新 → push 前チェック（grep）→ commit → push
+
+### 文体の一貫性
+
+本文文体は `quadratic-min-fixed-range.md`（グラフ主役型の模範）・`log-definition.md`（定義・概念型の模範）に寄せる。
+
+新規分野でも同じ3類型フローを使う。「読者体験の一貫性」を保つために、型の選択と文体の統一を徹底する。
