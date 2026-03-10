@@ -1,15 +1,34 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for page in site.pages %}
-  {% unless page.url contains '/assets/' or page.url == '/robots.txt' or page.url == '/sitemap.xml' %}
-  {% if page.url %}
-  <url>
-    <loc>{{ site.url }}{{ page.url }}</loc>
-  </url>
-  {% endif %}
-  {% endunless %}
-  {% endfor %}
+  <url><loc>https://math-explanation-site-v2.pages.dev/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-max-min/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-min-fixed-range/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-max-fixed-range/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-min-moving-range/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-max-moving-range/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-inequality/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-inequality-basics/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-inequality-discriminant/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-inequality-negative/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-inequality-system/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-root-location/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-root-location-same-sign/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-root-location-opposite-sign/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-root-location-both-in-interval/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-root-location-one-in-interval/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-transform/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-transform-translate/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-transform-reflect/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-transform-compose/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-determine/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-determine-3points/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-determine-vertex/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-determine-roots/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-graph-line/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-graph-line-intersections/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-graph-line-coordinates/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-graph-line-area/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-word-problems/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-word-problems-optimization/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/quadratic-word-problems-geometry/</loc></url>
 </urlset>
