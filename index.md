@@ -82,3 +82,11 @@ description: "グラフと言葉で「なぜ」から理解する高校数学解
 
 - [最大値・最小値の文章題](/quadratic-word-problems-optimization/)
 - [図形を含む二次関数の問題](/quadratic-word-problems-geometry/)
+
+---
+
+## 二次関数 基礎技術
+
+単元横断で使う計算技術を1テーマ1ページで解説します。
+
+- [平方完成の手順 — 軸と頂点をグラフから読む](/quadratic-completing-square/)

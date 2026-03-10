@@ -90,4 +90,6 @@ description: "二次関数の最大値・最小値を軸の位置で場合分け
 
 ---
 
+→ 関連: [平方完成の手順 — 軸と頂点をグラフから読む](/quadratic-completing-square/)
+
 ← [サイトトップへ](/)　／　→ [次の単元：二次不等式の解法](/quadratic-inequality/)
