@@ -8,8 +8,8 @@
 
 | 担当 | 役割 |
 |---|---|
-| Claude Code | **記事本文の主執筆者**。ChatGPT が提供した manuscript（問題 + 数学ポイント）をもとに記事を書く |
-| ChatGPT | 数学設計・manuscript 作成・失敗分析・レビュー |
+| Claude Code | **記事本文・manuscript・図・PDF・導線更新まで主担当**。既存 manuscripts のフォーマットを参照して自律的に完結する |
+| ChatGPT | 設計・レビュー・失敗分析・方針整理（integrated_exp manuscript の作成は担当しない） |
 | ユーザー | 数学的内容の最終確認（数式ミスがないか） |
 
 ---

@@ -436,8 +436,8 @@ PNG が未完成の場合は、`<img>` タグ行自体を commit に含めない
 
 | 担当 | 旧フロー | 新フロー |
 |---|---|---|
-| ChatGPT | 記事本文作成 | 数学設計・manuscript 作成・失敗分析・レビュー |
-| Claude Code | 実装のみ | **記事本文主執筆 + 実装** |
+| ChatGPT | 記事本文作成 | 設計・レビュー・失敗分析・方針整理（manuscript 作成は担当しない） |
+| Claude Code | 実装のみ | **記事本文・manuscript・図・PDF・導線更新まで主担当** |
 | ユーザー | 最終確認 | 数学的内容の最終確認（数式ミスがないか） |
 
 ### 必須参照 docs（新記事執筆時）
@@ -454,7 +454,8 @@ site/docs/UNIT_TOP_TEMPLATE.md ← 単元トップを作成・更新するとき
 
 ### 執筆フロー
 
-1. manuscript（problem + 数学ポイント）を受け取る
+1. Claude Code が integrated_exp manuscript を作成する
+   （既存 manuscripts/指数関数_例題1_integrated_exp.md 等を参照してフォーマットを踏襲）
 2. `ARTICLE_TEMPLATE.md` で3類型から型を選択する（グラフ主役型 / 定義・概念型 / 計算・性質型）
 3. 図が必要（グラフ主役型）なら `gen_figures_*.py` を先に作成・実行し、PNG の実在を確認する
 4. 記事本文を執筆する（「なぜ」の説明を計算セクションより前に配置）
