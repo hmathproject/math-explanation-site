@@ -5,3 +5,5 @@ exclude:
   - README.md
   - scripts/
   - docs/
+include:
+  - _redirects
