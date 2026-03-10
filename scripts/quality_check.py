@@ -79,7 +79,7 @@ def public_markdown_files() -> list[Path]:
     return sorted(
         path
         for path in ROOT.glob("*.md")
-        if path.name != "README.md"
+        if path.name not in {"README.md", "AGENTS.md"}
     )
 
 
