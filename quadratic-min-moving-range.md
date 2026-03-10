@@ -116,7 +116,7 @@ $$
 
 この問題を含む4問（固定区間2問・区間が動く2問）の解説PDFを無料で配布しています。模範解答と意味説明を2段組で並べた構成で、各ケースのグラフと照らしながら場合分けの流れを確認できます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-max-min-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-max-min-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

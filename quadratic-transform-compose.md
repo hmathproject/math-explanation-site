@@ -157,7 +157,7 @@ $$
 
 この単元全3問（平行移動・対称移動・合成変換）の解説PDFをダウンロードできます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-transform-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-transform-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

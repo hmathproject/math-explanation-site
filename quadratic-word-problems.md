@@ -49,7 +49,7 @@ description: "二次関数の最大値・最小値と図形問題を扱う文章
 
 この単元の2問（最大最小・図形問題）をまとめた解説PDFを無料で配布しています。各問の方針と解の手順を確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-word-problems-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-word-problems-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

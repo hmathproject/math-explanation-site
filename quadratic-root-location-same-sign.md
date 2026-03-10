@@ -107,7 +107,7 @@ $$
 
 この単元全4問（同符号・異符号・区間内・解が区間を挟む）の解説PDFをダウンロードできます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-root-location-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-root-location-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

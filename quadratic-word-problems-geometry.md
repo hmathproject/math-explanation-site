@@ -157,7 +157,7 @@ $$
 
 この単元全2問の解説PDFをダウンロードできます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-word-problems-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-word-problems-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

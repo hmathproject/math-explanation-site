@@ -101,7 +101,7 @@ $$
 
 この問題を含む4問（基本・判別式・a<0・連立）の解説PDFを無料で配布しています。各問の方針と解の構造を図と照らしながら確認できます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-inequality-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-inequality-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

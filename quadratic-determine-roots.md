@@ -114,7 +114,7 @@ $$
 
 この単元全3問（一般形・頂点形・因数形）の解説PDFをダウンロードできます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-determine-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-determine-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

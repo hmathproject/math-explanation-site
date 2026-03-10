@@ -88,7 +88,7 @@ figsize案: (18.0, 4.5)（4ケース横並び）
 
 この単元の3問（平行移動・対称移動・合成変換）をまとめた解説PDFを無料で配布しています。各問の方針と式の変形を図と照らしながら確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-transform-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-transform-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

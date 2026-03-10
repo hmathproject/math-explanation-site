@@ -108,7 +108,7 @@ $$
 
 この単元全3問（共有点の個数・座標・三角形の面積）の解説PDFをダウンロードできます。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-graph-line-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-graph-line-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

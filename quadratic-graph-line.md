@@ -75,7 +75,7 @@ figsize案: (13.5, 4.5)（3ケース標準）
 
 この単元の3問（共有点の個数・座標・三角形の面積）をまとめた解説PDFを無料で配布しています。各問の方針と解の手順を確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-graph-line-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-graph-line-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

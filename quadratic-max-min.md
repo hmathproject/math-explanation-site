@@ -81,7 +81,7 @@ description: "二次関数の最大値・最小値を軸の位置で場合分け
 
 模範解答と「なぜその式変形をするのか」の意味説明を2段組で並べた構成で、各ケースを図と照らしながら確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-max-min-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-max-min-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 

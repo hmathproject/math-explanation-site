@@ -14,11 +14,25 @@
   <meta name="description" content="{{ site.description }}">
   {% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  {% if page.url == "/" %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  {% else %}
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  <meta property="og:type" content="article">
+  {% endif %}
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="ja_JP">
   <style>
     body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font-family: sans-serif; line-height: 1.7; }
     img  { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }
     hr   { border: none; border-top: 1px solid #e5e7eb; margin: 1.5rem 0; }
     a    { color: #2563eb; }
+    .pdf-btn { display: inline-block; padding: 0.55rem 1.4rem; background: #2563eb; color: #fff !important; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 0.95rem; margin: 0.5rem 0; }
+    .pdf-btn:hover { background: #1d4ed8; }
   </style>
   <script>
     window.MathJax = {

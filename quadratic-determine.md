@@ -77,7 +77,7 @@ figsize案: (13.5, 4.5)（3ケース標準）
 
 この単元の3問（一般形・頂点形・因数形）をまとめた解説PDFを無料で配布しています。各問の方針と解の手順を確認できます。紙やタブレットに印刷して使うことも想定しています。
 
-[PDFをダウンロードする（無料）](/assets/pdf/quadratic-determine-pack.pdf)
+<a class="pdf-btn" href="/assets/pdf/quadratic-determine-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 
