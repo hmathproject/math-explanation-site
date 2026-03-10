@@ -1,6 +1,7 @@
 # 数学サイト 執筆システム概要
 
-このファイルは Claude Code が新記事を執筆するたびに最初に参照する入口です。
+このファイルは Claude Code が新記事を執筆するたびに参照する執筆入口です。
+サイト全体の構想・優先順位・運用方針は、まず `PROJECT_OVERVIEW.md` を確認してください。
 
 ---
 
@@ -16,12 +17,13 @@
 
 ## 新記事執筆時の参照順
 
-1. **このファイル（WRITING_SYSTEM.md）** — 全体を把握する
-2. **`ARTICLE_TEMPLATE.md`** — 3類型から型を選び、テンプレートを適用する
-3. **`FAILURE_PATTERNS.md`** — 既知の失敗を犯していないか確認する
-4. **`WRITING_CHECKLIST.md`** — 執筆後に自己検査する
-5. **`UNIT_TOP_TEMPLATE.md`** — 単元トップを更新するとき
-6. **`WORKFLOW_WEB.md` の §11** — 執筆フロー全体を確認するとき
+1. **`PROJECT_OVERVIEW.md`** — サイト全体の構想・優先順位・入口を把握する
+2. **このファイル（WRITING_SYSTEM.md）** — 執筆ルールの全体像を把握する
+3. **`ARTICLE_TEMPLATE.md`** — 3類型から型を選び、テンプレートを適用する
+4. **`FAILURE_PATTERNS.md`** — 既知の失敗を犯していないか確認する
+5. **`WRITING_CHECKLIST.md`** — 執筆後に自己検査する
+6. **`UNIT_TOP_TEMPLATE.md`** — 単元トップを更新するとき
+7. **`WORKFLOW_WEB.md`** — 実装から push までのフローを確認するとき
 
 ---
 
@@ -66,8 +68,9 @@
 
 | ファイル | 内容 |
 |---|---|
+| `PROJECT_OVERVIEW.md` | サイト全体の構想・優先順位・参照順の入口 |
 | `ARTICLE_TEMPLATE.md` | leaf 記事の3類型テンプレート（骨格・各セクションの書き方） |
 | `UNIT_TOP_TEMPLATE.md` | 単元トップの標準骨格 |
 | `WRITING_CHECKLIST.md` | 執筆後の自己検査リスト（13 項目） |
 | `FAILURE_PATTERNS.md` | 失敗パターン集（FP-01〜FP-11） |
-| `WORKFLOW_WEB.md` §11 | Claude Code 主体執筆フロー |
+| `WORKFLOW_WEB.md` | 実装・図生成・push 前チェックを含む運用フロー |
