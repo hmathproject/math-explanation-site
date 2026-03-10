@@ -54,9 +54,9 @@ $$
 
 \\( \cos\theta = 1 \\)：\\( 0 \leq \theta < 2\pi \\) で \\( \theta = 0 \\)
 
-\\( \cos\theta = -\dfrac{1}{2} \\)：\\( 0 \leq \theta < 2\pi \\) で \\( \theta = \dfrac{2\pi}{3},\ \dfrac{4\pi}{3} \\)
+\\( \cos\theta = -\frac{1}{2} \\)：\\( 0 \leq \theta < 2\pi \\) で \\( \theta = \frac{2\pi}{3},\ \frac{4\pi}{3} \\)
 
-**答え：** \\( \theta = 0,\ \dfrac{2\pi}{3},\ \dfrac{4\pi}{3} \\)
+**答え：** \\( \theta = 0,\ \frac{2\pi}{3},\ \frac{4\pi}{3} \\)
 
 ---
 
@@ -70,9 +70,9 @@ $$
 
 \\( \theta = 0 \\)：\\( 2\cdot 1 - 1 - 1 = 0 \\) ✓
 
-\\( \theta = \dfrac{2\pi}{3} \\)：\\( \cos\dfrac{2\pi}{3} = -\dfrac{1}{2} \\) なので \\( 2\cdot\dfrac{1}{4} - \left(-\dfrac{1}{2}\right) - 1 = \dfrac{1}{2} + \dfrac{1}{2} - 1 = 0 \\) ✓
+\\( \theta = \frac{2\pi}{3} \\)：\\( \cos\frac{2\pi}{3} = -\frac{1}{2} \\) なので \\( 2\cdot\frac{1}{4} - \left(-\frac{1}{2}\right) - 1 = \frac{1}{2} + \frac{1}{2} - 1 = 0 \\) ✓
 
-\\( \theta = \dfrac{4\pi}{3} \\)：同じく \\( \cos\dfrac{4\pi}{3} = -\dfrac{1}{2} \\) なので同様 ✓
+\\( \theta = \frac{4\pi}{3} \\)：同じく \\( \cos\frac{4\pi}{3} = -\frac{1}{2} \\) なので同様 ✓
 
 ---
 

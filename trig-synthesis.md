@@ -51,7 +51,7 @@ R\cos\varphi = \sqrt{3}, \quad R\sin\varphi = 1
 $$
 </div>
 
-\\( R = 2 \\) を代入すると \\( \cos\varphi = \dfrac{\sqrt{3}}{2} \\), \\( \sin\varphi = \dfrac{1}{2} \\) より \\( \varphi = \dfrac{\pi}{6} \\)。
+\\( R = 2 \\) を代入すると \\( \cos\varphi = \frac{\sqrt{3}}{2} \\), \\( \sin\varphi = \frac{1}{2} \\) より \\( \varphi = \frac{\pi}{6} \\)。
 
 よって、
 
@@ -63,13 +63,13 @@ $$
 
 **step 3：最大値・最小値を求める**
 
-\\( 0 \leq \theta < 2\pi \\) のとき \\( \dfrac{\pi}{6} \leq \theta + \dfrac{\pi}{6} < \dfrac{13\pi}{6} \\)。
+\\( 0 \leq \theta < 2\pi \\) のとき \\( \frac{\pi}{6} \leq \theta + \frac{\pi}{6} < \frac{13\pi}{6} \\)。
 
-- **最大値**：\\( \sin\!\left(\theta + \dfrac{\pi}{6}\right) = 1 \\) のとき \\( \theta + \dfrac{\pi}{6} = \dfrac{\pi}{2} \\) → \\( \theta = \dfrac{\pi}{3} \\)
+- **最大値**：\\( \sin\!\left(\theta + \frac{\pi}{6}\right) = 1 \\) のとき \\( \theta + \frac{\pi}{6} = \frac{\pi}{2} \\) → \\( \theta = \frac{\pi}{3} \\)
 
   最大値 \\( = 2 \times 1 = 2 \\)
 
-- **最小値**：\\( \sin\!\left(\theta + \dfrac{\pi}{6}\right) = -1 \\) のとき \\( \theta + \dfrac{\pi}{6} = \dfrac{3\pi}{2} \\) → \\( \theta = \dfrac{4\pi}{3} \\)
+- **最小値**：\\( \sin\!\left(\theta + \frac{\pi}{6}\right) = -1 \\) のとき \\( \theta + \frac{\pi}{6} = \frac{3\pi}{2} \\) → \\( \theta = \frac{4\pi}{3} \\)
 
   最小値 \\( = 2 \times (-1) = -2 \\)
 
@@ -77,7 +77,7 @@ $$
 
 ## なぜ φ の条件を両式から確認するか
 
-\\( \tan\varphi = \dfrac{R\sin\varphi}{R\cos\varphi} = \dfrac{1}{\sqrt{3}} \\) から \\( \varphi = \dfrac{\pi}{6} \\) または \\( \varphi = \pi + \dfrac{\pi}{6} = \dfrac{7\pi}{6} \\) の2候補があります。\\( R\cos\varphi = \sqrt{3} > 0 \\) かつ \\( R\sin\varphi = 1 > 0 \\) から第1象限に確定するので \\( \varphi = \dfrac{\pi}{6} \\)。
+\\( \tan\varphi = \frac{R\sin\varphi}{R\cos\varphi} = \frac{1}{\sqrt{3}} \\) から \\( \varphi = \frac{\pi}{6} \\) または \\( \varphi = \pi + \frac{\pi}{6} = \frac{7\pi}{6} \\) の2候補があります。\\( R\cos\varphi = \sqrt{3} > 0 \\) かつ \\( R\sin\varphi = 1 > 0 \\) から第1象限に確定するので \\( \varphi = \frac{\pi}{6} \\)。
 
 **φ を決める手順：**
 
@@ -94,7 +94,7 @@ a\sin\theta + b\cos\theta = R\sin(\theta + \varphi)
 $$
 </div>
 
-ただし \\( R = \sqrt{a^2 + b^2} \\)、\\( \varphi \\) は \\( \cos\varphi = \dfrac{a}{R},\ \sin\varphi = \dfrac{b}{R} \\) を満たす角。
+ただし \\( R = \sqrt{a^2 + b^2} \\)、\\( \varphi \\) は \\( \cos\varphi = \frac{a}{R},\ \sin\varphi = \frac{b}{R} \\) を満たす角。
 
 合成すると振幅が \\( R \\) になるため、最大値 = \\( R \\)、最小値 = \\( -R \\) が即座に読めます。方程式・不等式への応用では次の単元で使います。
 

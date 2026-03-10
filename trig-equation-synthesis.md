@@ -23,7 +23,7 @@ description: "sinθ + \\( \\sqrt{3} \\)cosθ = 1 を合成して R sin(θ+φ) = 
 
 左辺は sin と cos の1次結合なので直接解けません。合成で \\( R\sin(\theta+\varphi) \\) にまとめると、\\( R\sin(\theta+\varphi) = 1 \\) という基本方程式に帰着します。
 
-次の図で、合成後のグラフ \\( y = 2\sin(\theta + \dfrac{\pi}{3}) \\) と水平線 \\( y = 1 \\) の交点から解が読める様子を確認しましょう。
+次の図で、合成後のグラフ \\( y = 2\sin(\theta + \frac{\pi}{3}) \\) と水平線 \\( y = 1 \\) の交点から解が読める様子を確認しましょう。
 
 ![y=2sin(θ+π/3) のグラフと y=1 の交点がθ=π/2, θ=11π/6 を示す図](/assets/images/trig-eq-synthesis.png)
 
@@ -41,7 +41,7 @@ R = \sqrt{1^2 + (\sqrt{3})^2} = \sqrt{1+3} = 2
 $$
 </div>
 
-\\( \cos\varphi = \dfrac{1}{2},\ \sin\varphi = \dfrac{\sqrt{3}}{2} \\) より \\( \varphi = \dfrac{\pi}{3} \\)。
+\\( \cos\varphi = \frac{1}{2},\ \sin\varphi = \frac{\sqrt{3}}{2} \\) より \\( \varphi = \frac{\pi}{3} \\)。
 
 <div>
 $$
@@ -57,31 +57,31 @@ $$
 $$
 </div>
 
-**step 3：\\( \theta + \dfrac{\pi}{3} \\) の範囲を確認する**
+**step 3：\\( \theta + \frac{\pi}{3} \\) の範囲を確認する**
 
-\\( 0 \leq \theta < 2\pi \\) より \\( \dfrac{\pi}{3} \leq \theta + \dfrac{\pi}{3} < \dfrac{7\pi}{3} \\)。
+\\( 0 \leq \theta < 2\pi \\) より \\( \frac{\pi}{3} \leq \theta + \frac{\pi}{3} < \frac{7\pi}{3} \\)。
 
-この範囲で \\( \sin = \dfrac{1}{2} \\) を満たす角を探します。
+この範囲で \\( \sin = \frac{1}{2} \\) を満たす角を探します。
 
-- \\( \theta + \dfrac{\pi}{3} = \dfrac{\pi}{6} \\)：範囲外（\\( \dfrac{\pi}{6} < \dfrac{\pi}{3} \\)）→ **不採用**
-- \\( \theta + \dfrac{\pi}{3} = \dfrac{5\pi}{6} \\)：範囲内 → **採用** → \\( \theta = \dfrac{5\pi}{6} - \dfrac{\pi}{3} = \dfrac{\pi}{2} \\)
-- \\( \theta + \dfrac{\pi}{3} = \dfrac{\pi}{6} + 2\pi = \dfrac{13\pi}{6} \\)：\\( \dfrac{13\pi}{6} < \dfrac{7\pi}{3} = \dfrac{14\pi}{6} \\) → **採用** → \\( \theta = \dfrac{13\pi}{6} - \dfrac{\pi}{3} = \dfrac{11\pi}{6} \\)
+- \\( \theta + \frac{\pi}{3} = \frac{\pi}{6} \\)：範囲外（\\( \frac{\pi}{6} < \frac{\pi}{3} \\)）→ **不採用**
+- \\( \theta + \frac{\pi}{3} = \frac{5\pi}{6} \\)：範囲内 → **採用** → \\( \theta = \frac{5\pi}{6} - \frac{\pi}{3} = \frac{\pi}{2} \\)
+- \\( \theta + \frac{\pi}{3} = \frac{\pi}{6} + 2\pi = \frac{13\pi}{6} \\)：\\( \frac{13\pi}{6} < \frac{7\pi}{3} = \frac{14\pi}{6} \\) → **採用** → \\( \theta = \frac{13\pi}{6} - \frac{\pi}{3} = \frac{11\pi}{6} \\)
 
-**答え：** \\( \theta = \dfrac{\pi}{2},\ \dfrac{11\pi}{6} \\)
+**答え：** \\( \theta = \frac{\pi}{2},\ \frac{11\pi}{6} \\)
 
 ---
 
 ## なぜ「範囲確認」が重要か
 
-\\( \theta + \dfrac{\pi}{3} = \dfrac{\pi}{6} \\) が範囲外なので、対応する \\( \theta = \dfrac{\pi}{6} - \dfrac{\pi}{3} = -\dfrac{\pi}{6} \\) は \\( [0, 2\pi) \\) の外です。このような解を誤って採用しないために、\\( \theta + \varphi \\) の範囲を先に書いてから解を絞り込む手順が必要です。
+\\( \theta + \frac{\pi}{3} = \frac{\pi}{6} \\) が範囲外なので、対応する \\( \theta = \frac{\pi}{6} - \frac{\pi}{3} = -\frac{\pi}{6} \\) は \\( [0, 2\pi) \\) の外です。このような解を誤って採用しないために、\\( \theta + \varphi \\) の範囲を先に書いてから解を絞り込む手順が必要です。
 
 ---
 
 ## 確認
 
-\\( \theta = \dfrac{\pi}{2} \\)：\\( \sin\dfrac{\pi}{2} + \sqrt{3}\cos\dfrac{\pi}{2} = 1 + 0 = 1 \\) ✓
+\\( \theta = \frac{\pi}{2} \\)：\\( \sin\frac{\pi}{2} + \sqrt{3}\cos\frac{\pi}{2} = 1 + 0 = 1 \\) ✓
 
-\\( \theta = \dfrac{11\pi}{6} \\)：\\( \sin\dfrac{11\pi}{6} + \sqrt{3}\cos\dfrac{11\pi}{6} = -\dfrac{1}{2} + \sqrt{3}\cdot\dfrac{\sqrt{3}}{2} = -\dfrac{1}{2} + \dfrac{3}{2} = 1 \\) ✓
+\\( \theta = \frac{11\pi}{6} \\)：\\( \sin\frac{11\pi}{6} + \sqrt{3}\cos\frac{11\pi}{6} = -\frac{1}{2} + \sqrt{3}\cdot\frac{\sqrt{3}}{2} = -\frac{1}{2} + \frac{3}{2} = 1 \\) ✓
 
 ---
 

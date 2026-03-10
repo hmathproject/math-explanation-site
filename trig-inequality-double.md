@@ -23,11 +23,11 @@ description: "sinθ − cosθ \\( \\geq 1 \\) を合成で \\( \\sqrt{2}\\sin(\\
 
 左辺は sin と cos の1次結合です。合成で \\( \sqrt{2}\sin(\theta - \varphi) \\) にまとめると、基本不等式 \\( \sin(\theta - \varphi) \geq k \\) に帰着します。
 
-次の図で、合成後の変数 \\( u = \theta - \dfrac{\pi}{4} \\) の視点での解区間（左）と θ に戻した解区間（右）を確認しましょう。
+次の図で、合成後の変数 \\( u = \theta - \frac{\pi}{4} \\) の視点での解区間（左）と θ に戻した解区間（右）を確認しましょう。
 
 ![左：sin(u) が \\( \\sqrt{2}/2 \\) 以上の解区間、右：θに戻して \\( \\pi/2 \\leq \\theta \\leq \\pi \\) となる塗りつぶし区間](/assets/images/trig-ineq-double.png)
 
-右図の塗りつぶし部分が解区間 \\( \dfrac{\pi}{2} \leq \theta \leq \pi \\) です。
+右図の塗りつぶし部分が解区間 \\( \frac{\pi}{2} \leq \theta \leq \pi \\) です。
 
 ---
 
@@ -41,9 +41,9 @@ R = \sqrt{1^2 + (-1)^2} = \sqrt{2}
 $$
 </div>
 
-\\( R\cos\varphi = 1,\ R\sin\varphi = -1 \\) より \\( \cos\varphi = \dfrac{1}{\sqrt{2}},\ \sin\varphi = -\dfrac{1}{\sqrt{2}} \\)。
+\\( R\cos\varphi = 1,\ R\sin\varphi = -1 \\) より \\( \cos\varphi = \frac{1}{\sqrt{2}},\ \sin\varphi = -\frac{1}{\sqrt{2}} \\)。
 
-これは第4象限なので \\( \varphi = -\dfrac{\pi}{4} \\)。
+これは第4象限なので \\( \varphi = -\frac{\pi}{4} \\)。
 
 <div>
 $$
@@ -59,15 +59,15 @@ $$
 $$
 </div>
 
-**step 3：\\( \theta - \dfrac{\pi}{4} \\) の範囲を確認する**
+**step 3：\\( \theta - \frac{\pi}{4} \\) の範囲を確認する**
 
-\\( 0 \leq \theta < 2\pi \\) より \\( -\dfrac{\pi}{4} \leq \theta - \dfrac{\pi}{4} < \dfrac{7\pi}{4} \\)。
+\\( 0 \leq \theta < 2\pi \\) より \\( -\frac{\pi}{4} \leq \theta - \frac{\pi}{4} < \frac{7\pi}{4} \\)。
 
-**step 4：この範囲で \\( \sin \geq \dfrac{\sqrt{2}}{2} \\) の区間を読む**
+**step 4：この範囲で \\( \sin \geq \frac{\sqrt{2}}{2} \\) の区間を読む**
 
-\\( \sin\varphi \geq \dfrac{\sqrt{2}}{2} \\) の基本解：\\( \dfrac{\pi}{4} \leq \varphi \leq \dfrac{3\pi}{4} \\)
+\\( \sin\varphi \geq \frac{\sqrt{2}}{2} \\) の基本解：\\( \frac{\pi}{4} \leq \varphi \leq \frac{3\pi}{4} \\)
 
-\\( \dfrac{\pi}{4} \leq \theta - \dfrac{\pi}{4} \leq \dfrac{3\pi}{4} \\) が範囲（\\( -\dfrac{\pi}{4} \\) 以上 \\( \dfrac{7\pi}{4} \\) 未満）内に収まることを確認 → OK
+\\( \frac{\pi}{4} \leq \theta - \frac{\pi}{4} \leq \frac{3\pi}{4} \\) が範囲（\\( -\frac{\pi}{4} \\) 以上 \\( \frac{7\pi}{4} \\) 未満）内に収まることを確認 → OK
 
 <div>
 $$
@@ -79,11 +79,11 @@ $$
 
 ## 確認
 
-\\( \theta = \dfrac{\pi}{2} \\)：\\( \sin\dfrac{\pi}{2} - \cos\dfrac{\pi}{2} = 1 - 0 = 1 \geq 1 \\) ✓（境界）
+\\( \theta = \frac{\pi}{2} \\)：\\( \sin\frac{\pi}{2} - \cos\frac{\pi}{2} = 1 - 0 = 1 \geq 1 \\) ✓（境界）
 
 \\( \theta = \pi \\)：\\( \sin\pi - \cos\pi = 0 - (-1) = 1 \geq 1 \\) ✓（境界）
 
-\\( \theta = \dfrac{3\pi}{4} \\)：\\( \sin\dfrac{3\pi}{4} - \cos\dfrac{3\pi}{4} = \dfrac{\sqrt{2}}{2} + \dfrac{\sqrt{2}}{2} = \sqrt{2} > 1 \\) ✓（内部）
+\\( \theta = \frac{3\pi}{4} \\)：\\( \sin\frac{3\pi}{4} - \cos\frac{3\pi}{4} = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} = \sqrt{2} > 1 \\) ✓（内部）
 
 ---
 

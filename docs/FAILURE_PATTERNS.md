@@ -195,6 +195,34 @@ grep -rn "[≤≥√∈]" manuscripts/ --include="*_integrated_exp.md"
 
 ---
 
+## FP-13: インライン数式内の `\dfrac` と markdown テーブル内の `\|` 絶対値
+
+**症状:**
+`python3 scripts/quality_check.py` が以下の WARN を出力する。
+- `\\dfrac in inline math can disturb line height; prefer \\frac`
+- `inline absolute value can break markdown tables; prefer display math`
+
+**原因:**
+- `\dfrac` はインライン数式 `\\( ... \\)` 内で使うと前後テキストより行高が大きくなり、段落の行間が乱れる。
+- `\|x\|` はマークダウンテーブルのセル内でパイプ `|` がカラム区切りと誤解釈される場合がある。
+
+**ルール:**
+- インライン数式では常に `\frac` を使う（display 数式 `$$...$$` 内は `\frac` で問題なし）
+- テーブルセル内の絶対値には `\vert x\vert` を使う（`\|x\|` `\lvert x\rvert` は避ける）
+
+**修正例:**
+```
+❌  \\( \dfrac{1}{2} \\)          →  ✅  \\( \frac{1}{2} \\)
+❌  \\( \|A\| \\)（テーブル内）   →  ✅  \\( \vert A\vert \\)
+```
+
+**検知:**
+```bash
+python3 scripts/quality_check.py
+```
+
+---
+
 ## パターン別の検知コマンドまとめ
 
 ```bash

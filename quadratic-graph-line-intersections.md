@@ -66,9 +66,9 @@ $$
 $$
 D = 1 + 4k
 \begin{cases}
-> 0 & \left(k > -\dfrac{1}{4}\right) \\[8pt]
-= 0 & \left(k = -\dfrac{1}{4}\right) \\[8pt]
-< 0 & \left(k < -\dfrac{1}{4}\right)
+> 0 & \left(k > -\frac{1}{4}\right) \\[8pt]
+= 0 & \left(k = -\frac{1}{4}\right) \\[8pt]
+< 0 & \left(k < -\frac{1}{4}\right)
 \end{cases}
 $$
 </div>

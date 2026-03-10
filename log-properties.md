@@ -71,7 +71,7 @@ $$
 $$
 </div>
 
-ゆえに \\( \log_a \dfrac{M}{N} = p - q = \log_a M - \log_a N \\)。
+ゆえに \\( \log_a \frac{M}{N} = p - q = \log_a M - \log_a N \\)。
 
 累乗については \\( M = a^p \\) より
 
@@ -107,7 +107,7 @@ $$
 $$
 </div>
 
-\\( \log_c a \neq 0 \\) で割ると \\( t = \dfrac{\log_c b}{\log_c a} \\) が得られます。
+\\( \log_c a \neq 0 \\) で割ると \\( t = \frac{\log_c b}{\log_c a} \\) が得られます。
 
 ---
 
@@ -154,9 +154,9 @@ $$
 | 公式 | 内容 |
 |---|---|
 | 積 | \\( \log_a MN = \log_a M + \log_a N \\) |
-| 商 | \\( \log_a \dfrac{M}{N} = \log_a M - \log_a N \\) |
+| 商 | \\( \log_a \frac{M}{N} = \log_a M - \log_a N \\) |
 | 累乗 | \\( \log_a M^k = k\log_a M \\) |
-| 底の変換 | \\( \log_a b = \dfrac{\log_c b}{\log_c a} \\) |
+| 底の変換 | \\( \log_a b = \frac{\log_c b}{\log_c a} \\) |
 
 いずれも **指数法則の対数版**です。証明は「\\( \log_a M = p \\) とおくと \\( M = a^p \\)」という定義に戻ることで成り立ちます。
 

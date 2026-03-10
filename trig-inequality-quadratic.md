@@ -61,15 +61,15 @@ $$
 
 **step 4：sin グラフから \\( \theta \\) の範囲を読む**
 
-\\( \sin\theta = 1 \\)：\\( \theta = \dfrac{\pi}{2} \\)
+\\( \sin\theta = 1 \\)：\\( \theta = \frac{\pi}{2} \\)
 
-\\( -1 \leq \sin\theta \leq -\dfrac{1}{2} \\)（\\( [0, 2\pi] \\) の範囲）：
+\\( -1 \leq \sin\theta \leq -\frac{1}{2} \\)（\\( [0, 2\pi] \\) の範囲）：
 
-sin グラフが \\( y = -\dfrac{1}{2} \\) 以下になる区間。
+sin グラフが \\( y = -\frac{1}{2} \\) 以下になる区間。
 
-境界点：\\( \sin\theta = -\dfrac{1}{2} \\) → \\( \theta = \dfrac{7\pi}{6},\ \dfrac{11\pi}{6} \\)
+境界点：\\( \sin\theta = -\frac{1}{2} \\) → \\( \theta = \frac{7\pi}{6},\ \frac{11\pi}{6} \\)
 
-sin グラフが最小値 \\( -1 \\) を取る \\( \theta = \dfrac{3\pi}{2} \\) を含む区間：
+sin グラフが最小値 \\( -1 \\) を取る \\( \theta = \frac{3\pi}{2} \\) を含む区間：
 
 <div>
 $$
@@ -77,7 +77,7 @@ $$
 $$
 </div>
 
-**答え：** \\( \theta = \dfrac{\pi}{2} \\) または \\( \dfrac{7\pi}{6} \leq \theta \leq \dfrac{11\pi}{6} \\)
+**答え：** \\( \theta = \frac{\pi}{2} \\) または \\( \frac{7\pi}{6} \leq \theta \leq \frac{11\pi}{6} \\)
 
 ---
 
@@ -89,7 +89,7 @@ $$
 
 ## 確認
 
-\\( \theta = \dfrac{3\pi}{2} \\)（区間内）：\\( \sin\dfrac{3\pi}{2} = -1 \\) → \\( 2(1)+1-1=2 \geq 0 \\) ✓
+\\( \theta = \frac{3\pi}{2} \\)（区間内）：\\( \sin\frac{3\pi}{2} = -1 \\) → \\( 2(1)+1-1=2 \geq 0 \\) ✓
 
 \\( \theta = \pi \\)（区間外）：\\( \sin\pi = 0 \\) → \\( 0 - 0 - 1 = -1 < 0 \\) ✓（解でない）
 
