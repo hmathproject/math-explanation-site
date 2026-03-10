@@ -1,11 +1,7 @@
 title: 高校数学 解説サイト
 description: グラフと言葉で「なぜ」から理解する数学解説
 url: "https://math-explanation-site-v2.pages.dev"
-plugins:
-  - jekyll-sitemap
 exclude:
   - README.md
   - scripts/
   - docs/
-  - Gemfile
-  - Gemfile.lock
