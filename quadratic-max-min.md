@@ -5,7 +5,7 @@ permalink: /quadratic-max-min/
 description: "二次関数の最大値・最小値を軸の位置で場合分けして求める方法をグラフで解説。固定区間・動く区間の4パターンを網羅。解説PDF付き。"
 ---
 
-← [サイトトップへ](/)
+← [サイトトップへ](/)　／　[二次関数](/quadratic/)
 
 ---
 
@@ -92,4 +92,4 @@ description: "二次関数の最大値・最小値を軸の位置で場合分け
 
 → 関連: [平方完成の手順 — 軸と頂点をグラフから読む](/quadratic-completing-square/)
 
-← [サイトトップへ](/)　／　→ [次の単元：二次不等式の解法](/quadratic-inequality/)
+← [二次関数](/quadratic/)　／　→ [次の単元：二次不等式の解法](/quadratic-inequality/)
