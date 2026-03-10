@@ -16,7 +16,7 @@ figsize案: (7.0, 4.5)
 図の挿入位置: 「なぜ因数形を使うか」セクション冒頭
 -->
 
-← [単元トップへ：二次関数の式の決定](/quadratic-determine/)　／　← [前の記事：頂点と1点・軸と2点（頂点形）](/quadratic-determine-vertex/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [式の決定](/quadratic-determine/)
 
 ---
 
@@ -118,4 +118,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の式の決定](/quadratic-determine/)
+← [前の記事：頂点と1点・軸と2点（頂点形）](/quadratic-determine-vertex/)　／　[式の決定](/quadratic-determine/)

@@ -17,7 +17,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「頂点形を使う2つのパターン」セクション冒頭
 -->
 
-← [単元トップへ：二次関数の式の決定](/quadratic-determine/)　／　← [前の記事：3点を通るとき（一般形）](/quadratic-determine-3points/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [式の決定](/quadratic-determine/)
 
 ---
 
@@ -156,6 +156,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の式の決定](/quadratic-determine/)
-
-→ [次の記事：2つの解から決めるとき（因数形）](/quadratic-determine-roots/)
+← [前の記事：3点を通るとき（一般形）](/quadratic-determine-3points/)　／　[式の決定](/quadratic-determine/)　／　→ [次の記事：2つの解から決めるとき（因数形）](/quadratic-determine-roots/)

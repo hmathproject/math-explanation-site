@@ -5,7 +5,7 @@ permalink: /quadratic-min-moving-range/
 description: "a≤x≤a+2 のように動く区間での二次関数の最小値を、軸と区間の位置関係で3ケースに分けてグラフで解説します。"
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)　／　← [前の記事：最大値を求める（固定区間・軸が動く）](/quadratic-max-fixed-range/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [最大値・最小値](/quadratic-max-min/)
 
 ---
 
@@ -120,6 +120,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)
-
-→ [次の記事：最大値を求める（動く区間・軸が固定）](/quadratic-max-moving-range/)
+← [前の記事：最大値を求める（固定区間・軸が動く）](/quadratic-max-fixed-range/)　／　[最大値・最小値](/quadratic-max-min/)　／　→ [次の記事：最大値を求める（動く区間・軸が固定）](/quadratic-max-moving-range/)

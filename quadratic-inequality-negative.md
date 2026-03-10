@@ -5,7 +5,7 @@ permalink: /quadratic-inequality-negative/
 description: "最高次係数が負（a<0）のときの二次不等式の解法を、放物線が下に凸になる場合としてグラフで図解します。"
 ---
 
-← [単元トップへ：二次不等式の解法](/quadratic-inequality/)　／　← [前の記事：D=0・D<0 のとき](/quadratic-inequality-discriminant/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [二次不等式](/quadratic-inequality/)
 
 ---
 
@@ -105,6 +105,4 @@ $$
 
 ---
 
-← [単元トップへ：二次不等式の解法](/quadratic-inequality/)
-
-→ [次の記事：連立二次不等式](/quadratic-inequality-system/)
+← [前の記事：D=0・D<0 のとき](/quadratic-inequality-discriminant/)　／　[二次不等式](/quadratic-inequality/)　／　→ [次の記事：連立二次不等式](/quadratic-inequality-system/)

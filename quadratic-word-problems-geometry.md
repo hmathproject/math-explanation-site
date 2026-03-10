@@ -15,7 +15,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「問題の解き方」直前
 -->
 
-← [単元トップへ：二次関数の文章題・応用](/quadratic-word-problems/)　／　← [前の記事：最大値・最小値の文章題](/quadratic-word-problems-optimization/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [文章題・応用](/quadratic-word-problems/)
 
 ---
 
@@ -161,4 +161,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の文章題・応用](/quadratic-word-problems/)
+← [前の記事：最大値・最小値の文章題](/quadratic-word-problems-optimization/)　／　[文章題・応用](/quadratic-word-problems/)

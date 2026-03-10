@@ -15,7 +15,7 @@ figsize案: (7.0, 4.5)
 図の挿入位置: 「問題の解き方」冒頭
 -->
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)　／　← [前の記事：放物線と直線の共有点の個数](/quadratic-graph-line-intersections/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [グラフと直線](/quadratic-graph-line/)
 
 ---
 
@@ -104,6 +104,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)
-
-→ [次の記事：2交点と原点でできる三角形の面積](/quadratic-graph-line-area/)
+← [前の記事：放物線と直線の共有点の個数](/quadratic-graph-line-intersections/)　／　[グラフと直線](/quadratic-graph-line/)　／　→ [次の記事：2交点と原点でできる三角形の面積](/quadratic-graph-line-area/)

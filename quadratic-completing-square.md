@@ -5,7 +5,7 @@ permalink: /quadratic-completing-square/
 description: "ax²+bx+c を a(x-p)²+q の頂点形に変える手順を、軸・頂点がグラフにどう現れるかと対応させながら解説します。二次関数の最大値・最小値・解の配置を学ぶ前の入口として。"
 ---
 
-← [二次関数](/quadratic/)　／　[二次関数](/quadratic/)
+[サイトトップ](/) / [二次関数](/quadratic/) / 基礎技術
 
 ---
 
@@ -116,4 +116,4 @@ $$
 
 ---
 
-← [二次関数](/quadratic/)
+[二次関数](/quadratic/)

@@ -15,7 +15,7 @@ figsize案: (7.0, 4.5)
 図の挿入位置: 「問題の解き方」末尾
 -->
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)　／　← [前の記事：放物線と直線の共有点の座標](/quadratic-graph-line-coordinates/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [グラフと直線](/quadratic-graph-line/)
 
 ---
 
@@ -112,4 +112,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)
+← [前の記事：放物線と直線の共有点の座標](/quadratic-graph-line-coordinates/)　／　[グラフと直線](/quadratic-graph-line/)

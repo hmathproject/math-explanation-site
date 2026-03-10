@@ -18,7 +18,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「まず確認すること」セクション末尾（f(0)の符号の意味を視覚化した後、条件提示へ）
 -->
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解が同符号](/quadratic-root-location-same-sign/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [解の配置](/quadratic-root-location/)
 
 ---
 
@@ -90,6 +90,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
-
-→ [次の記事：2解がともに区間内](/quadratic-root-location-both-in-interval/)
+← [前の記事：2解が同符号](/quadratic-root-location-same-sign/)　／　[解の配置](/quadratic-root-location/)　／　→ [次の記事：2解がともに区間内](/quadratic-root-location-both-in-interval/)

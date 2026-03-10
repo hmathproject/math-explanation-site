@@ -5,7 +5,7 @@ permalink: /quadratic-inequality-system/
 description: "2つの二次不等式を連立して解く方法を、数直線上で解の共通部分を取る手順でわかりやすく解説します。"
 ---
 
-← [単元トップへ：二次不等式の解法](/quadratic-inequality/)　／　← [前の記事：a<0 のとき](/quadratic-inequality-negative/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [二次不等式](/quadratic-inequality/)
 
 ---
 
@@ -134,4 +134,4 @@ $$
 
 ---
 
-← [単元トップへ：二次不等式の解法](/quadratic-inequality/)
+← [前の記事：a<0 のとき](/quadratic-inequality-negative/)　／　[二次不等式](/quadratic-inequality/)

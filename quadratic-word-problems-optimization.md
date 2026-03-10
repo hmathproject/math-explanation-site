@@ -15,7 +15,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「方針」直後
 -->
 
-← [単元トップへ：二次関数の文章題・応用](/quadratic-word-problems/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [文章題・応用](/quadratic-word-problems/)
 
 ---
 
@@ -124,6 +124,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の文章題・応用](/quadratic-word-problems/)
-
-→ [次の記事：図形を含む二次関数の問題](/quadratic-word-problems-geometry/)
+[文章題・応用](/quadratic-word-problems/)　／　→ [次の記事：図形を含む二次関数の問題](/quadratic-word-problems-geometry/)

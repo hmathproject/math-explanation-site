@@ -19,7 +19,7 @@ figsize案: (13.5, 4.5)（3ケース標準）
 図の挿入位置: 「3種の対称移動の操作」セクション冒頭（操作ルール説明の前）
 -->
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)　／　← [前の記事：平行移動](/quadratic-transform-translate/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [平行移動・対称移動](/quadratic-transform/)
 
 ---
 
@@ -169,6 +169,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)
-
-→ [次の記事：平行移動と対称移動の合成](/quadratic-transform-compose/)
+← [前の記事：平行移動](/quadratic-transform-translate/)　／　[平行移動・対称移動](/quadratic-transform/)　／　→ [次の記事：平行移動と対称移動の合成](/quadratic-transform-compose/)

@@ -20,7 +20,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「なぜ x を x-p に換えると右に動くか」セクション冒頭
 -->
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [平行移動・対称移動](/quadratic-transform/)
 
 ---
 
@@ -124,6 +124,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)
-
-→ [次の記事：対称移動（x軸・y軸・原点）](/quadratic-transform-reflect/)
+[平行移動・対称移動](/quadratic-transform/)　／　→ [次の記事：対称移動（x軸・y軸・原点）](/quadratic-transform-reflect/)

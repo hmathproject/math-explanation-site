@@ -18,7 +18,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「解が区間を挟む1条件」セクション内（条件の意味を図で確認）
 -->
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解がともに区間内](/quadratic-root-location-both-in-interval/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [解の配置](/quadratic-root-location/)
 
 ---
 
@@ -99,4 +99,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
+← [前の記事：2解がともに区間内](/quadratic-root-location-both-in-interval/)　／　[解の配置](/quadratic-root-location/)

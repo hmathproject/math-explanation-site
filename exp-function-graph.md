@@ -5,7 +5,7 @@ permalink: /exp-function-graph/
 description: "指数関数 y=aˣ の底 a の値が 1 より大きいか小さいかでグラフの増減がどう変わるかをグラフで解説。漸近線・通過点・a=1 が除外される理由まで。"
 ---
 
-← [単元トップへ：指数関数のグラフと方程式・不等式](/exponential-function/)
+[サイトトップ](/) / [指数関数・対数関数](/exp-log/) / [指数関数](/exponential-function/)
 
 ---
 
@@ -75,4 +75,4 @@ $$
 
 ---
 
-← [単元トップへ：指数関数のグラフと方程式・不等式](/exponential-function/)
+[指数関数](/exponential-function/)

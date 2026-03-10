@@ -19,7 +19,7 @@ figsize案: (18.0, 4.5)（4ケース）
 図の挿入位置: 「条件の読み取り」セクション末尾・「3条件の役割」の直前
 -->
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)　／　← [前の記事：2解が異符号](/quadratic-root-location-opposite-sign/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [解の配置](/quadratic-root-location/)
 
 ---
 
@@ -99,6 +99,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
-
-→ [次の記事：解が区間を挟む](/quadratic-root-location-one-in-interval/)
+← [前の記事：2解が異符号](/quadratic-root-location-opposite-sign/)　／　[解の配置](/quadratic-root-location/)　／　→ [次の記事：解が区間を挟む](/quadratic-root-location-one-in-interval/)

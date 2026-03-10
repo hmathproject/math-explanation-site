@@ -19,7 +19,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「変換の順序が結果を変える」セクション冒頭
 -->
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)　／　← [前の記事：対称移動](/quadratic-transform-reflect/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [平行移動・対称移動](/quadratic-transform/)
 
 ---
 
@@ -161,4 +161,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の平行移動・対称移動](/quadratic-transform/)
+← [前の記事：対称移動](/quadratic-transform-reflect/)　／　[平行移動・対称移動](/quadratic-transform/)

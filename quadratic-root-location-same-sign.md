@@ -19,7 +19,7 @@ figsize案: (9.0, 4.5)（2ケース標準）
 図の挿入位置: 「2解がともに正になる3条件」セクション冒頭（条件列挙の前）
 -->
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [解の配置](/quadratic-root-location/)
 
 ---
 
@@ -111,6 +111,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数の解の配置](/quadratic-root-location/)
-
-→ [次の記事：2解が異符号](/quadratic-root-location-opposite-sign/)
+[解の配置](/quadratic-root-location/)　／　→ [次の記事：2解が異符号](/quadratic-root-location-opposite-sign/)

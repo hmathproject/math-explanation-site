@@ -18,7 +18,7 @@ figsize案: (13.5, 4.5)（3ケース標準）
 図の挿入位置: 「なぜ判別式で個数がわかるか」セクション冒頭
 -->
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)
+[サイトトップ](/) / [二次関数](/quadratic/) / [グラフと直線](/quadratic-graph-line/)
 
 ---
 
@@ -109,6 +109,4 @@ $$
 
 ---
 
-← [単元トップへ：二次関数のグラフと直線](/quadratic-graph-line/)
-
-→ [次の記事：放物線と直線の共有点の座標](/quadratic-graph-line-coordinates/)
+[グラフと直線](/quadratic-graph-line/)　／　→ [次の記事：放物線と直線の共有点の座標](/quadratic-graph-line-coordinates/)
