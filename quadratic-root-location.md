@@ -28,6 +28,11 @@ figsize案: (18.0, 4.0)（4ケース横並び）
 
 **放物線の形から解の位置条件を読む**
 
+- [解の配置（2解が同符号）](/quadratic-root-location-same-sign/)
+- [解の配置（2解が異符号）](/quadratic-root-location-opposite-sign/)
+- [解の配置（2解がともに区間内）](/quadratic-root-location-both-in-interval/)
+- [解の配置（解が区間を挟む）](/quadratic-root-location-one-in-interval/)
+
 ---
 
 ## この単元で学ぶこと

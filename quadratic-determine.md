@@ -27,6 +27,10 @@ figsize案: (13.5, 4.5)（3ケース標準）
 
 **与えられた条件に応じて「どの形で立てるか」を判断する**
 
+- [3点を通るとき（一般形）](/quadratic-determine-3points/)
+- [頂点と1点・軸と2点（頂点形）](/quadratic-determine-vertex/)
+- [2つの解から決めるとき（因数形）](/quadratic-determine-roots/)
+
 ---
 
 ## この単元で学ぶこと

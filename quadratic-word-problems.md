@@ -13,6 +13,9 @@ description: "二次関数の最大値・最小値と図形問題を扱う文章
 
 **条件を式に変換し、頂点または交点で答えを読む**
 
+- [最大値・最小値の文章題](/quadratic-word-problems-optimization/)
+- [図形を含む二次関数の問題](/quadratic-word-problems-geometry/)
+
 ---
 
 ## この単元で学ぶこと

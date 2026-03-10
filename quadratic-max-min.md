@@ -13,6 +13,11 @@ description: "二次関数の最大値・最小値を軸の位置で場合分け
 
 **軸の位置で場合分けのしくみを理解する**
 
+- [最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)
+- [最大値を求める（固定区間・軸が動く）](/quadratic-max-fixed-range/)
+- [最小値を求める（動く区間・軸が固定）](/quadratic-min-moving-range/)
+- [最大値を求める（動く区間・軸が固定）](/quadratic-max-moving-range/)
+
 ---
 
 ## この単元で学ぶこと

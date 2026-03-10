@@ -27,6 +27,10 @@ figsize案: (13.5, 4.5)（3ケース標準）
 
 **放物線と直線の交わり方を、判別式・連立方程式・座標の3ステップで理解する**
 
+- [放物線と直線の共有点の個数](/quadratic-graph-line-intersections/)
+- [放物線と直線の共有点の座標](/quadratic-graph-line-coordinates/)
+- [2交点と原点でできる三角形の面積](/quadratic-graph-line-area/)
+
 ---
 
 ## この単元で学ぶこと

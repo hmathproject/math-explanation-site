@@ -28,6 +28,10 @@ figsize案: (18.0, 4.5)（4ケース横並び）
 
 **放物線の形を保ちながらグラフを動かす・折り返す**
 
+- [平行移動（x軸方向・y軸方向）](/quadratic-transform-translate/)
+- [対称移動（x軸・y軸・原点）](/quadratic-transform-reflect/)
+- [平行移動と対称移動の合成](/quadratic-transform-compose/)
+
 ---
 
 ## この単元で学ぶこと
