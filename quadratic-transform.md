@@ -92,4 +92,4 @@ figsize案: (18.0, 4.5)（4ケース横並び）
 
 ---
 
-← [サイトトップへ](/)　／　← [前の単元：二次関数の解の配置](/quadratic-root-location/)
+← [サイトトップへ](/)　／　← [前の単元：二次関数の解の配置](/quadratic-root-location/)　／　→ [次の単元：二次関数の式の決定](/quadratic-determine/)

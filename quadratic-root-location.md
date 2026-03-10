@@ -102,4 +102,4 @@ figsize案: (18.0, 4.0)（4ケース横並び）
 
 ---
 
-← [サイトトップへ](/)　／　← [前の単元：二次不等式の解法](/quadratic-inequality/)
+← [サイトトップへ](/)　／　← [前の単元：二次不等式の解法](/quadratic-inequality/)　／　→ [次の単元：二次関数の平行移動・対称移動](/quadratic-transform/)

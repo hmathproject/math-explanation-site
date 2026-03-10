@@ -79,4 +79,4 @@ figsize案: (13.5, 4.5)（3ケース標準）
 
 ---
 
-← [サイトトップへ](/)　／　← [前の単元：二次関数の式の決定](/quadratic-determine/)
+← [サイトトップへ](/)　／　← [前の単元：二次関数の式の決定](/quadratic-determine/)　／　→ [次の単元：二次関数の文章題・応用](/quadratic-word-problems/)

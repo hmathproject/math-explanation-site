@@ -334,3 +334,42 @@ description: "（80〜120字の説明文）"
 | canonical | `default.html` が自動出力（変更不要） |
 
 詳細は **[docs/SEO_GUIDELINES.md](docs/SEO_GUIDELINES.md)** を参照。
+
+---
+
+## §8 Search Console 導入後の運用フロー（2026-03-10 追加）
+
+### SC 登録後にやること（初回のみ）
+
+1. SC 管理画面でプロパティを追加し、認証を完了する（ユーザー操作）
+2. 「サイトマップ」から `https://math-explanation-site-v2.pages.dev/sitemap.xml` を送信する（ユーザー操作）
+3. 認証メタタグが必要な場合は Claude Code に content 値を伝えて `default.html` に1行追加する
+
+### 月次チェックの手順
+
+Search Console 管理画面 → 「検索パフォーマンス」 で以下を確認する。
+
+| 指標 | 見るべきポイント |
+|---|---|
+| **Impressions（表示回数）** | どの記事が検索に露出しているか。ゼロの記事はクロールされていない可能性 |
+| **Clicks（クリック数）** | 流入が発生している記事を特定する |
+| **CTR（クリック率）** | 3%未満 → title / description を改善する候補 |
+| **Average Position（平均掲載順位）** | 11〜20 位（2ページ目）の記事は改善で1ページ目に上がりやすい |
+
+### データ活用のタイミング
+
+- データ蓄積 1〜2ヶ月後に Phase 2b を実施する
+- 「どのクエリで露出しているか」を見て、title / description にそのキーワードを自然に含める
+- CTR が特に低い記事（表示はされているがクリックされない）を優先的に改善する
+
+### Claude Code に渡す情報の形式
+
+Phase 2b で title / description を改善するとき、以下の形式でデータを渡すと効率よく作業できる：
+
+```
+記事URL: /quadratic-min-fixed-range/
+上位クエリ: 「二次関数 最小値 場合分け」「最小値 固定区間 グラフ」
+現状 CTR: 1.2%（低い）
+現状 Average Position: 14.3
+→ title / description にクエリを含める改善をしてほしい
+```
