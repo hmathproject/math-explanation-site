@@ -23,6 +23,10 @@ description: "単位円（半径1の円）上の点の座標で sin・cos・tan 
 
 単位円 \\( x^2 + y^2 = 1 \\) 上の点 P を、x 軸正方向からの角度 θ で指定します（反時計回りが正）。
 
+次の図で、P の x 座標が cos θ、y 座標が sin θ になる様子を確認しましょう。
+
+![単位円上の点 P(cosθ, sinθ) と cos・sin の関係を示す図](/assets/images/trig-unit-circle.png)
+
 点 P の座標を \\( (x, y) \\) とするとき、
 
 <div>

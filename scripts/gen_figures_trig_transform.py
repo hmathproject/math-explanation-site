@@ -4,6 +4,7 @@ gen_figures_trig_transform.py — 三角関数グラフ 変換 概念図生成
 Panel 1: 振幅の変化 — y = sin θ（薄灰）と y = 2 sin θ（濃色）
 Panel 2: 周期の変化 — y = sin θ（薄灰）と y = sin 2θ（濃色）
 Panel 3: 位相のずれ  — y = sin θ（薄灰）と y = sin(θ - π/3)（濃色）
+Panel 4: 垂直移動   — y = sin θ（薄灰）と y = sin θ + 1（濃色）
 
 使い方:
     cd experiments/graph-guided-lessons/site
@@ -176,13 +177,46 @@ def draw_panel3(ax):
             ha="center", va="top", fontsize=11, fontweight="bold")
 
 
+def draw_panel4(ax):
+    """垂直移動: y = sin θ と y = sin θ + 1。"""
+    y_lo, y_hi = -1.5, 2.5
+    pad_y, y_hi_eff = setup_axes(ax, y_lo, y_hi)
+
+    # y 軸目盛り -1, 0, 1, 2
+    for yv, lbl in [(2, "2"), (1, "1"), (-1, "-1")]:
+        ax.plot([-0.06, 0.06], [yv, yv], "k-", linewidth=0.8)
+        ax.text(-0.12, yv, lbl, ha="right", va="center", fontsize=8)
+
+    theta = np.linspace(X_LO, X_HI, 1000)
+
+    # y = sin θ（薄灰）
+    ax.plot(theta, np.sin(theta), color=GRAY, linewidth=1.2, linestyle="--",
+            label=r"$y=\sin\theta$", zorder=2)
+
+    # y = sin θ + 1（濃色）
+    ax.plot(theta, np.sin(theta) + 1, color=DARK_BLUE, linewidth=2.0,
+            label=r"$y=\sin\theta + 1$", zorder=3)
+
+    # 中心線 y = 1 の補助線
+    ax.axhline(1.0, color="#cc2222", linewidth=0.9, linestyle=":", zorder=1, alpha=0.8)
+    ax.text(X_HI + 0.15, 1.0 + 0.06, r"中心線 $y=1$",
+            ha="left", va="bottom", fontsize=8, color="#cc2222")
+
+    ax.legend(loc="upper right", fontsize=8, framealpha=0.9,
+              edgecolor="#cccccc", handlelength=1.6)
+
+    ax.text((X_LO + X_HI) / 2, y_hi + pad_y - 0.02, r"垂直移動：D = 1",
+            ha="center", va="top", fontsize=11, fontweight="bold")
+
+
 def main() -> None:
-    fig, axes = plt.subplots(1, 3, figsize=(13.5, 4.0))
+    fig, axes = plt.subplots(1, 4, figsize=(17.5, 4.0))
     fig.patch.set_facecolor("white")
 
     draw_panel1(axes[0])
     draw_panel2(axes[1])
     draw_panel3(axes[2])
+    draw_panel4(axes[3])
 
     fig.tight_layout(pad=0.4, w_pad=1.2)
 

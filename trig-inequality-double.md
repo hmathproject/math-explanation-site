@@ -23,6 +23,12 @@ description: "sinθ − cosθ ≥ 1 を合成で √2 sin(θ − π/4) ≥ 1 に
 
 左辺は sin と cos の1次結合です。合成で \\( \sqrt{2}\sin(\theta - \varphi) \\) にまとめると、基本不等式 \\( \sin(\theta - \varphi) \geq k \\) に帰着します。
 
+次の図で、合成後の変数 \\( u = \theta - \dfrac{\pi}{4} \\) の視点での解区間（左）と θ に戻した解区間（右）を確認しましょう。
+
+![左：sin(u)≥√2/2 の解区間、右：θに戻してπ/2≤θ≤π の塗りつぶし区間](/assets/images/trig-ineq-double.png)
+
+右図の塗りつぶし部分が解区間 \\( \dfrac{\pi}{2} \leq \theta \leq \pi \\) です。
+
 ---
 
 ## 問題の解き方
