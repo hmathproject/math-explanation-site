@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の文章題・応用
 permalink: /quadratic-word-problems/
+description: "二次関数の最大値・最小値と図形問題を扱う文章題を解説。変数設定と二次関数への変換から解く手順を2記事で網羅。解説PDF付き。"
 ---
 
 ← [サイトトップへ](/)

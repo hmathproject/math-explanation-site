@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の平行移動・対称移動
 permalink: /quadratic-transform/
+description: "放物線の平行移動・x軸/y軸/原点対称・合成変換を、グラフの動きと式の変形を対応させながら解説。全3記事・解説PDF付き。"
 ---
 
 <!-- 図設計メモ（gen_figures_qt0.py）

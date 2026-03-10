@@ -2,6 +2,7 @@
 layout: default
 title: 解の配置（2解が同符号）
 permalink: /quadratic-root-location-same-sign/
+description: "二次方程式の2解がともに正または2解がともに負になる条件を、判別式・軸の位置・f(0)の符号の3条件で求める方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_rl1.py）

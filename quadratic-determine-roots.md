@@ -2,6 +2,7 @@
 layout: default
 title: 2つの解から二次関数の式を決める
 permalink: /quadratic-determine-roots/
+description: "x軸との2交点（零点）が与えられたときに、因数形 a(x-α)(x-β) を使って二次関数の式を決める方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_qd3.py）

@@ -2,6 +2,7 @@
 layout: default
 title: 平行移動（x軸方向・y軸方向）
 permalink: /quadratic-transform-translate/
+description: "二次関数 y=x² を x 軸方向・y 軸方向に平行移動したときの式の変形を、グラフの動きと照らし合わせて「なぜ x-p になるか」から解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_qt1.py）

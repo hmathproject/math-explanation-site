@@ -310,3 +310,27 @@ img  { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }
 hr   { border: none; border-top: 1px solid #e5e7eb; margin: 1.5rem 0; }
 a    { color: #2563eb; }
 ```
+
+---
+
+## §7 SEO front matter ルール（2026-03-10 追加）
+
+新しいページの front matter には必ず `description:` を含める。
+
+```yaml
+---
+layout: default
+title: （記事タイトル）
+permalink: /（ASCII-スラッグ）/
+description: "（80〜120字の説明文）"
+---
+```
+
+| ルール | 内容 |
+|---|---|
+| description の文字数 | 80〜120字 |
+| キーワード含有 | タイトルと同じキーワードを自然に含める |
+| index.md の title | 「トップページ」禁止。記述的な内容にする |
+| canonical | `default.html` が自動出力（変更不要） |
+
+詳細は **[docs/SEO_GUIDELINES.md](docs/SEO_GUIDELINES.md)** を参照。

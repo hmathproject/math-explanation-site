@@ -2,6 +2,7 @@
 layout: default
 title: 解の配置（2解が異符号）
 permalink: /quadratic-root-location-opposite-sign/
+description: "二次方程式の2解が異符号（一方が正・一方が負）になる条件を、f(0)<0 という一条件のみで判定できる理由をグラフで解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_rl2.py）

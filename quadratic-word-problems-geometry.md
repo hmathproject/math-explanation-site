@@ -2,6 +2,7 @@
 layout: default
 title: 図形を含む二次関数の問題
 permalink: /quadratic-word-problems-geometry/
+description: "長方形の面積・道幅の問題など、図形に関する条件から二次関数を立てて最大値・最小値を求める問題の解き方を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_wp2.py）

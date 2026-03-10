@@ -2,6 +2,7 @@
 layout: default
 title: 二次不等式（a<0 のとき）
 permalink: /quadratic-inequality-negative/
+description: "最高次係数が負（a<0）のときの二次不等式の解法を、放物線が下に凸になる場合としてグラフで図解します。"
 ---
 
 ← [単元トップへ：二次不等式の解法](/quadratic-inequality/)　／　← [前の記事：D=0・D<0 のとき](/quadratic-inequality-discriminant/)

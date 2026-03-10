@@ -2,6 +2,7 @@
 layout: default
 title: 二次不等式の解法
 permalink: /quadratic-inequality/
+description: "放物線とx軸の位置関係から二次不等式を解く方法を解説。D>0・D=0・D<0の3パターンと係数が負の場合まで全4記事で網羅。解説PDF付き。"
 ---
 
 # 二次不等式の解法

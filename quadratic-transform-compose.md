@@ -2,6 +2,7 @@
 layout: default
 title: 平行移動と対称移動の合成
 permalink: /quadratic-transform-compose/
+description: "平行移動と対称移動を組み合わせた合成変換を、操作の順序に注意しながら式の変形とグラフの動きで解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_qt3.py）

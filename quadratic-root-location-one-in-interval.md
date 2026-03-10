@@ -2,6 +2,7 @@
 layout: default
 title: 解の配置（解が区間を挟む）
 permalink: /quadratic-root-location-one-in-interval/
+description: "二次方程式の解が区間の両側に1つずつある（区間を挟む）条件を、f(α)とf(β)の積が負になることで判定する方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_rl4.py）

@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の最大値（動く区間）
 permalink: /quadratic-max-moving-range/
+description: "a≤x≤a+2 のように動く区間での二次関数の最大値を、軸と区間の位置関係で2ケースに分けてグラフで解説します。"
 ---
 
 ← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)　／　← [前の記事：最小値を求める（動く区間・軸が固定）](/quadratic-min-moving-range/)

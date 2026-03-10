@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の最大値（固定区間）
 permalink: /quadratic-max-fixed-range/
+description: "固定区間で軸が動く二次関数の最大値を、軸の位置による2ケースに分けてグラフで解説します。"
 ---
 
 ← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)　／　← [前の記事：最小値を求める（固定区間・軸が動く）](/quadratic-min-fixed-range/)

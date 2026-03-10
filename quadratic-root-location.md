@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の解の配置
 permalink: /quadratic-root-location/
+description: "二次方程式の解の位置条件（2解の符号・大小・区間内外）を、放物線の形とf(境界値)の符号から判定する方法を解説。全4記事。解説PDF付き。"
 ---
 
 <!-- 図設計メモ（gen_figures_rl0.py）

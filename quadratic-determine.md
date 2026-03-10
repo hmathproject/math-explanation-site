@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の式の決定
 permalink: /quadratic-determine/
+description: "与えられた条件から二次関数の式を決める3パターン（3点・頂点+1点・軸+2点）を、一般形・頂点形・因数形の使い分けから解説。PDF付き。"
 ---
 
 <!-- 図設計メモ（gen_figures_qd0.py）

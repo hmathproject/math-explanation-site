@@ -2,6 +2,7 @@
 layout: default
 title: 二次不等式の基本（a>0, D>0）
 permalink: /quadratic-inequality-basics/
+description: "二次不等式の基本パターン（a>0かつD>0）の解法を、放物線とx軸の交点から不等式の解を読み取る方法でグラフを使って解説します。"
 ---
 
 ← [単元トップへ：二次不等式の解法](/quadratic-inequality/)

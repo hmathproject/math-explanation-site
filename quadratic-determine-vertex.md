@@ -2,6 +2,7 @@
 layout: default
 title: 頂点と1点・軸と2点から式を決める
 permalink: /quadratic-determine-vertex/
+description: "頂点の座標が与えられた場合と、軸の方程式と通過点が与えられた場合に、頂点形 a(x-p)²+q を使って式を決める方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_qd2.py）

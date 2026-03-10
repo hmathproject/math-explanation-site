@@ -2,6 +2,7 @@
 layout: default
 title: 対称移動（x軸・y軸・原点）
 permalink: /quadratic-transform-reflect/
+description: "二次関数をx軸対称・y軸対称・原点対称に移動したときの式の変形を、グラフを使って各対称の法則から導きます。"
 ---
 
 <!-- 図設計メモ（gen_figures_qt2.py）

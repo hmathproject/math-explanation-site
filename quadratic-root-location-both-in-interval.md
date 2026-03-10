@@ -2,6 +2,7 @@
 layout: default
 title: 解の配置（2解がともに区間内）
 permalink: /quadratic-root-location-both-in-interval/
+description: "二次方程式の2解がともに特定の区間内にある条件を、判別式・軸・端点のf値の3条件の組み合わせで求める方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_rl3.py）

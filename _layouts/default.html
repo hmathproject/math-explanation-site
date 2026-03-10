@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/" %}
+  <title>{{ page.title }}</title>
+  {% else %}
   <title>{{ page.title }} | {{ site.title }}</title>
+  {% endif %}
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% elsif site.description %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   <style>
     body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font-family: sans-serif; line-height: 1.7; }
     img  { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }

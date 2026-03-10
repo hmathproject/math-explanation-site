@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数のグラフと直線
 permalink: /quadratic-graph-line/
+description: "放物線と直線の共有点を判別式・座標・面積の3段階で理解する解説。共有点の個数・座標・三角形面積の3記事・解説PDF付き。"
 ---
 
 <!-- 図設計メモ（gen_figures_gl0.py）

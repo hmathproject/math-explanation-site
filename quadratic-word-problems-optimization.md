@@ -2,6 +2,7 @@
 layout: default
 title: 最大値・最小値の文章題
 permalink: /quadratic-word-problems-optimization/
+description: "売上・利益・面積の最大化・最小化を題材にした二次関数の文章題を、変数設定から頂点で答えを読む手順でステップごとに解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_wp1.py）

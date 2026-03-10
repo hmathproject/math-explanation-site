@@ -2,6 +2,7 @@
 layout: default
 title: 放物線と直線の共有点の個数
 permalink: /quadratic-graph-line-intersections/
+description: "放物線と直線を連立して得られる二次方程式の判別式 D の符号から共有点の個数（2個・1個・0個）を場合分けする方法を解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_gl1.py）

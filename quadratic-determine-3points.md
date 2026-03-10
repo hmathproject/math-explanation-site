@@ -2,6 +2,7 @@
 layout: default
 title: 3点を通る二次関数の式の決定
 permalink: /quadratic-determine-3points/
+description: "3点の座標が与えられたときに二次関数の式を決める方法を、一般形 ax²+bx+c に代入して連立方程式を解くステップで解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_qd1.py）

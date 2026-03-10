@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の最大値・最小値
 permalink: /quadratic-max-min/
+description: "二次関数の最大値・最小値を軸の位置で場合分けして求める方法をグラフで解説。固定区間・動く区間の4パターンを網羅。解説PDF付き。"
 ---
 
 ← [サイトトップへ](/)

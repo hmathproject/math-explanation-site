@@ -2,6 +2,7 @@
 layout: default
 title: 二次関数の最小値（固定区間）
 permalink: /quadratic-min-fixed-range/
+description: "固定区間で軸が動く二次関数の最小値を、軸の位置による3ケースに分けてグラフと場合分けで解説します。"
 ---
 
 ← [単元トップへ：二次関数の最大値・最小値](/quadratic-max-min/)

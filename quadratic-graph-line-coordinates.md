@@ -2,6 +2,7 @@
 layout: default
 title: 放物線と直線の共有点の座標
 permalink: /quadratic-graph-line-coordinates/
+description: "放物線 y=x² と直線 y=2x+3 を連立して共有点の座標を求める方法を、連立・因数分解・座標代入の3ステップでグラフと合わせて解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_gl2.py）

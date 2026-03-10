@@ -2,6 +2,7 @@
 layout: default
 title: 二次不等式（D=0・D<0 のとき）
 permalink: /quadratic-inequality-discriminant/
+description: "判別式D=0（接する）またはD<0（交わらない）のときの二次不等式の解法を、放物線の位置から考えてグラフで解説します。"
 ---
 
 ← [単元トップへ：二次不等式の解法](/quadratic-inequality/)　／　← [前の記事：基本の解き方](/quadratic-inequality-basics/)

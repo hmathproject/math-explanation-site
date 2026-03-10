@@ -2,6 +2,7 @@
 layout: default
 title: 2交点と原点でできる三角形の面積
 permalink: /quadratic-graph-line-area/
+description: "放物線と直線の2交点と原点を3頂点とする三角形の面積を、座標の公式 S=½|x₁y₂-x₂y₁| を使って求める方法をグラフで解説します。"
 ---
 
 <!-- 図設計メモ（gen_figures_gl3.py）
