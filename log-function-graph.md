@@ -104,4 +104,12 @@ $$
 
 ---
 
-← [前の記事：対数とは何か](/log-definition/)　／　[対数関数](/logarithm-function/)
+## もっと練習したい方へ
+
+この単元の解説PDFを無料で配布しています。対数方程式・不等式の例題を中心に、真数条件の確認・底をそろえる手順・不等号の向きの判断まで、模範解答と意味説明を2段組で並べた構成で確認できます。
+
+<a class="pdf-btn" href="/assets/pdf/logarithm-function-pack.pdf">PDFをダウンロードする（無料）</a>
+
+---
+
+← [前の記事：対数とは何か](/log-definition/)　／　[対数関数](/logarithm-function/)　／　→ [次の記事：対数の性質 — 積・商・累乗と底の変換公式](/log-properties/)

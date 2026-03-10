@@ -75,4 +75,12 @@ $$
 
 ---
 
+## もっと練習したい方へ
+
+この単元の解説PDFを無料で配布しています。指数方程式・不等式の例題を中心に、底をそろえる手順・不等号の向きの判断まで、模範解答と意味説明を2段組で並べた構成で確認できます。
+
+<a class="pdf-btn" href="/assets/pdf/exponential-function-pack.pdf">PDFをダウンロードする（無料）</a>
+
+---
+
 [指数関数](/exponential-function/)　／　→ [次の記事：指数関数の平行移動と対称移動](/exp-function-transform/)

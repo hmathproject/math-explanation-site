@@ -68,9 +68,11 @@ description: "指数関数 y=aˣ の底 a の値（a>1・0<a<1）でグラフの
 
 ---
 
-## 解説PDFについて
+## 解説PDF
 
-この単元の解説PDFは準備中です。
+この単元の例題を2段組（模範解答 + 意味説明）でまとめた解説PDFを無料で配布しています。
+
+<a class="pdf-btn" href="/assets/pdf/exponential-function-pack.pdf">PDFをダウンロードする（無料）</a>
 
 ---
 
