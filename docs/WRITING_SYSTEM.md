@@ -43,7 +43,7 @@
 
 - **「なぜ」の説明を計算セクションより前に置く**
 - `## まとめ` の見出しに括弧書きをしない（`## まとめ（a>0 の場合）` は禁止）
-- `## もっと練習したい方へ` が leaf 記事の PDF セクション標準名
+- `## もっと練習したい方へ` が leaf 記事の PDF セクション標準名（unit top は `## 解説PDFについて`、両者は別名で使い分ける）
 - PDF ボタンは `ls site/assets/pdf/[unit-slug]-pack.pdf` で local ファイルの実在確認後にのみ書く
 - 未公開記事への nav リンクは書かない
 - 「準備中」「公開中」「解説PDF準備中」を残さない
@@ -69,5 +69,5 @@
 | `ARTICLE_TEMPLATE.md` | leaf 記事の3類型テンプレート（骨格・各セクションの書き方） |
 | `UNIT_TOP_TEMPLATE.md` | 単元トップの標準骨格 |
 | `WRITING_CHECKLIST.md` | 執筆後の自己検査リスト（13 項目） |
-| `FAILURE_PATTERNS.md` | 失敗パターン集（FP-01〜FP-09） |
+| `FAILURE_PATTERNS.md` | 失敗パターン集（FP-01〜FP-11） |
 | `WORKFLOW_WEB.md` §11 | Claude Code 主体執筆フロー |

@@ -133,6 +133,36 @@ ls site/assets/pdf/[unit-slug]-pack.pdf
 
 ---
 
+## FP-10: unit top の PDF 見出しが `## 解説PDF` になっている
+
+**症状:** exponential-function.md / logarithm-function.md で `## 解説PDF` を使っていた。
+
+**原因:** leaf 記事の命名（`## もっと練習したい方へ`）と unit top の命名（`## 解説PDFについて`）を混同した。
+
+**修正:** unit top では必ず `## 解説PDFについて`（leaf は `## もっと練習したい方へ`）。
+
+**検知:**
+```bash
+grep -R "^## 解説PDF$" site/ --include="*.md" --exclude-dir=docs
+```
+
+---
+
+## FP-11: `## この解説の特徴` 等の meta-commentary セクションを追加している
+
+**症状:** exponential-function.md に `## この解説の特徴` セクションが存在していた（2026-03-10 削除済み）。
+
+**原因:** 正本（quadratic-inequality.md / quadratic-root-location.md）には存在しないセクションを追加してしまった。
+
+**修正:** `## この解説の特徴`・`## このサイトの特徴` 等の meta-commentary セクションは unit top・leaf ともに禁止。
+
+**検知:**
+```bash
+grep -R "## この解説の特徴\|## このサイトの特徴" site/ --include="*.md" --exclude-dir=docs
+```
+
+---
+
 ## パターン別の検知コマンドまとめ
 
 ```bash
@@ -146,4 +176,10 @@ grep -R "## まとめ（" site/ --include="*.md" --exclude-dir=docs
 grep -R "公開中"       site/ --exclude-dir=docs
 grep -R "準備中"       site/ --exclude-dir=docs
 grep -R "解説PDF準備中" site/ --exclude-dir=docs
+
+# FP-10: unit top の PDF 見出し揺れ
+grep -R "^## 解説PDF$" site/ --include="*.md" --exclude-dir=docs
+
+# FP-11: meta-commentary セクション
+grep -R "## この解説の特徴\|## このサイトの特徴" site/ --include="*.md" --exclude-dir=docs
 ```
