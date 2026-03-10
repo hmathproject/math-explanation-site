@@ -68,4 +68,12 @@ permalink: /sitemap.xml
   <url><loc>https://math-explanation-site-v2.pages.dev/trig-inequality-basic/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/trig-inequality-double/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/trig-inequality-quadratic/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/differential/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-graph/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-derivative-intro/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-increasing-decreasing/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-cubic-graph/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min-closed/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min-param/</loc></url>
 </urlset>
