@@ -32,7 +32,7 @@ CODEX_APPLY_ALLOWED=1 bash scripts/run_codex_task.sh apply "修正指示文"
 
 | モード | 内部コマンド | 用途 |
 |---|---|---|
-| analyze | `codex exec --json -o <msg_file> "prompt"` | read-only 検査・集計・監査 |
+| analyze | `codex exec --json -o <msg_file> -s read-only "prompt"` | read-only 検査・集計・監査 |
 | apply | `codex exec --full-auto "prompt"` | 機械的修正の適用 |
 
 - `--dangerously-bypass-approvals-and-sandbox` は使わない
