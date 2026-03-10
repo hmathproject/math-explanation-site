@@ -163,6 +163,38 @@ grep -R "## この解説の特徴\|## このサイトの特徴" site/ --include=
 
 ---
 
+## FP-12: integrated_exp manuscript の Unicode 数学記号が PDF で欠落
+
+**症状:**
+PDF を pdftotext で確認すると `sin θ = 3/2`（√3/2 の `√` が消える）や `0  θ < 2π`（`≤` が消える）のような文字化けが発生する。XeLaTeX + Hiragino フォントは Unicode の `√`（U+221A）・`≤`（U+2264）・`≥`（U+2265）・`∈`（U+2208）をテキストモードで処理できないため、LaTeX がこれらを**無音でドロップ**する。
+
+**根本原因:**
+`manuscripts/*_integrated_exp.md` の `## 問題`・`## 解法の流れ`・`## 方針` セクションの本文（plain text 段落）に Unicode 数学記号を直接記述すると、`build_exp_pdf.py` の `_convert_lines()` がそのまま LaTeX テキストモードに渡す。テキストモードでは Hiragino がこれらのグリフを持たないため脱落する。
+
+**ルール（manuscript 執筆時）:**
+- `## 模範解答` より前の本文（問題・解法の流れ・方針）で数学記号を含む場合は必ず `\( ... \)` に包む
+- `√3/2` → `\(\dfrac{\sqrt{3}}{2}\)` または `\(\sqrt{3}/2\)`
+- `0 ≤ θ < 2π` → `\(0 \leq \theta < 2\pi\)`
+- `−1 ≤ t ≤ 1` → `\(-1 \leq t \leq 1\)`
+- `θ ∈ (π/2, π)` → `\(\theta \in (\pi/2,\ \pi)\)`
+- markdown テーブルのセル内も同様に `$\frac{\sqrt{3}}{2}$` 形式を使う
+
+**検知（PDF ビルド後）:**
+```bash
+# pdftotext で各パック PDF を抽出し、欠落パターンを確認する
+for f in site/assets/pdf/trig-*-pack.pdf; do
+  echo "=== $f ===" && pdftotext "$f" - | grep -E "= [0-9]/[0-9]$"
+done
+```
+
+**検知（manuscript ソース）:**
+```bash
+grep -rn "[≤≥√∈]" manuscripts/ --include="*_integrated_exp.md"
+```
+→ 何も出力されなければ OK。
+
+---
+
 ## パターン別の検知コマンドまとめ
 
 ```bash
@@ -182,4 +214,7 @@ grep -R "^## 解説PDF$" site/ --include="*.md" --exclude-dir=docs
 
 # FP-11: meta-commentary セクション
 grep -R "## この解説の特徴\|## このサイトの特徴" site/ --include="*.md" --exclude-dir=docs
+
+# FP-12: manuscript Unicode 数学記号の欠落
+grep -rn "[≤≥√∈]" manuscripts/ --include="*_integrated_exp.md"
 ```
