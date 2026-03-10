@@ -75,4 +75,4 @@ $$
 
 ---
 
-[指数関数](/exponential-function/)
+[指数関数](/exponential-function/)　／　→ [次の記事：指数関数の平行移動と対称移動](/exp-function-transform/)
