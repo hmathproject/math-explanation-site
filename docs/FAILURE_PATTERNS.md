@@ -397,3 +397,24 @@ for f in sorted(pathlib.Path('manuscripts').glob('積分_*.md')):
                 print(f'{f.name}:{i} ({len(line.rstrip())}ch): {line.strip()[:90]}')
 "
 ```
+
+---
+
+## FP-19: 直線の方程式での垂直線ケース漏れ
+
+**症状:**
+- 「直線の方程式は y = mx + n で表せる」と書き、x = a のケースを忘れる
+- 平行・垂直の条件式で「どちらかが垂直線のとき」の例外を見落とす
+
+**原因:** y = mx + n に意識が向きすぎて、傾きが定義されないケースを考慮しなかった。
+
+**正しい対応:**
+- coord-line-equation では冒頭で「x = a のケースは傾き m が定義されない」と明記する
+- coord-line-relation では「どちらかが垂直線のとき」の例外を記述する
+- 一般形 ax + by + c = 0 でまとめると、垂直線を含む全ての直線を統一的に表せる
+
+**検知:**
+```bash
+grep -rn "y = mx" site/coord-line*.md
+```
+（y = mx + n のみの記述で x = a への言及がない場合、FP-19 の可能性）
