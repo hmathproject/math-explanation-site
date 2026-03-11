@@ -128,4 +128,21 @@ permalink: /sitemap.xml
   <url><loc>https://math-explanation-site-v2.pages.dev/seq-pattern/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/seq-difference/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/seq-group/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vectors/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-basics/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-definition/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-addition/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-scalar/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-components/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-component-form/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-component-ops/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-linear-combo/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-inner-product/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-dot-product/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-perpendicular/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-angle-calc/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-geometry/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-position/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-division/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/vec-figure-conditions/</loc></url>
 </urlset>
