@@ -83,4 +83,17 @@ permalink: /sitemap.xml
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-application/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-equation-roots/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-inequality-proof/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integral/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-indefinite/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-antiderivative-basics/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-antiderivative-calc/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-antiderivative-initial/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-definite/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-definite-calc/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-definite-properties/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-definite-param/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-area/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-area-xaxis/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-area-curves/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/integ-area-formula/</loc></url>
 </urlset>
