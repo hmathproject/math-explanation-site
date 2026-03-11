@@ -31,7 +31,7 @@ description: "微分を使って不等式を証明する方法を解説。h(x)=f
 
 次の図で \\( h(x) \\) のグラフと最小値の位置を確認してください。
 
-![h(x)=x³-3x+2 の x≧0 でのグラフ（左）と f(x)=x³ と g(x)=3x-2 の大小関係（右）](/assets/images/diff-inequality-proof-combined.png)
+![h(x)=x³-3x+2 の x>=0 でのグラフ（左）と f(x)=x³ と g(x)=3x-2 の大小関係（右）](/assets/images/diff-inequality-proof-combined.png)
 
 左: \\( h(x) \\) の最小値が \\( 0 \\) なので、\\( x \geq 0 \\) 全体で \\( h(x) \geq 0 \\) が成立しています。右: \\( x \geq 1 \\) で \\( y = x^3 \\) が \\( y = 3x - 2 \\) の上側にあります。
 
