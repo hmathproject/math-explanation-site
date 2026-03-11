@@ -22,6 +22,8 @@ commit する前に全項目を確認してください。
 □ インライン数式内で \dfrac を使っていない（\frac を使う。\dfrac は行高を乱す）
 □ テーブルセル内の絶対値に \| を使っていない（\vert x\vert を使う）
 □ 区間を [a,b] 形式で書いていない（閉区間は \\( a \leq x \leq b \\)、開区間は (, ) のまま）
+□ 絶対値は壊れた \left...\right になっていない（\\( \left|-\frac{1}{6}\right| \\) のように \left| と \right| を必ず対にする）
+□ 計算結果に不要な小数を使っていない（特別な理由がない限り分数・整数で表す）
 ```
 
 ### 変数定義
@@ -79,6 +81,35 @@ commit する前に全項目を確認してください。
 □ 「準備中」「公開中」が残っていない
 □ 内部リンクがすべて絶対パス /page-name/ 形式
 □ ## この解説の特徴 等の meta-commentary セクションがない
+```
+
+---
+
+## manuscript チェックリスト（integrated_exp 形式）
+
+```
+□ 絶対値: \left| ... \right| か |...| を使っている（\left と \right が対になっている）
+□ 不要な小数なし（計算結果・代入値・検証値はすべて分数か整数で表記）
+□ 右欄説明ボックス内の長い行（文字列 + インライン数式の混在）を改行・段落分割している
+□ 表示幅が広い数式（複数の \frac が並ぶ等）は display（\[...\]）で表記している
+□ Unicode 数学記号（≤ ≥ √ ∈）を使っていない（FP-12: \( \leq \) 等に変換）
+```
+
+**grep 再点検コマンド:**
+```bash
+# FP-15: 不要な小数
+grep -rn "\b[0-9]\+\.[0-9]\+" manuscripts/積分_*_integrated_exp.md | grep -v "width=0\.[0-9]"
+
+# FP-16: 孤立した \left または \right
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        for m in re.finditer(r'\\\\left', line):
+            a = line[m.end():]
+            if a and a[0] not in '|([{.\\\\ ':
+                print(f'{f}:{i}: {line.strip()[:80]}')
+"
 ```
 
 ---

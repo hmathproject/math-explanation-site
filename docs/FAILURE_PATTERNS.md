@@ -267,3 +267,75 @@ grep -rn "[≤≥√∈]" manuscripts/ --include="*_integrated_exp.md"
 grep -n '\[[0-9-][^]]*\]' site/*.md | grep -v '](http' | grep -v '/assets/'
 ```
 
+
+---
+
+## FP-15: 不要な小数計算
+
+**症状:** 検証用のテスト値や代入結果を小数で書く（例: `x = 0.5` で `x³-x = 0.125 - 0.5 = -0.375`）
+
+**原因:** テスト値に `x = 1/2` などの分数を使えば小数が出ないにもかかわらず、計算を十進小数で進めてしまった。また、解が無理数のときに近似値を付記した（例: `a ≈ 2.48`）。
+
+**対策:**
+- テスト値は小数を生まない分数（`\frac{1}{2}`, `\frac{1}{3}` など）を選ぶ
+- 解が無理数の場合は近似値を記載せず、「実数解は唯一存在し、◯ < a < △ にある」等の形で表す
+- 計算の途中も分数で通し、最後まで分数・整数で表記する
+
+**検知:**
+```bash
+grep -rn "\b[0-9]\+\.[0-9]\+" manuscripts/積分_*_integrated_exp.md | grep -v "width=0\.[0-9]"
+grep -rn "\b[0-9]\+\.[0-9]\+" site/integ-*.md site/integral.md
+```
+
+---
+
+## FP-16: 壊れた絶対値記法（\left と \right の片落ち）
+
+**症状:** `面積 \( = \left -\frac{1}{6} \right = \frac{1}{6} \)` のように `\left` の直後に `|` が欠落している、または `\left|` に対応する `\right|` が欠けている。
+
+**原因:** コピー・編集の途中で `|` が脱落した、または `\left(` を絶対値のつもりで書いた。
+
+**対策:**
+- 絶対値は必ず `\left| ... \right|` または `|...|`（スカラーに限り）で書く
+- `\left` の直後には必ず `|`, `(`, `[`, `\{` などの対応する区切り文字を置く
+- `\vert x \vert` 形式は manuscript TeX では有効だが、web 記事では `|x|` か `\left|x\right|` を使う
+
+**検知:**
+```bash
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('site').glob('integ-*.md')) + sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        for m in re.finditer(r'\\\\left', line):
+            a = line[m.end():]
+            if a and a[0] not in '|([{.\\\\ ':
+                print(f'{f}:{i}: {line.strip()[:80]}')
+"
+```
+
+---
+
+## FP-17: 右欄説明ボックスの横幅 overflow
+
+**症状:** PDF の右欄（COL_MID〜COL_END の説明ボックス）で、テキストまたはインライン数式が枠の右端をはみ出す。
+
+**原因:** 長い日本語文字列とインライン数式（`\( f(x) - g(x) = ... \)`）を1段落に詰め込んだため、TeX のライン分割が効かない部分が生じた。
+
+**対策:**
+- 1行が100文字超かつインライン数式を複数含む場合は段落を分割する
+- 幅の広い数式（`\frac` が3つ以上連続する等）は `\[...\]` display ブロックに切り出す
+- 目安: 右欄の prose 行は 80〜100 文字以内、インライン数式は1文に1〜2個まで
+
+**検知:**
+```bash
+python3 - <<'PYEOF'
+import pathlib
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
+    in_right = False
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if '<!-- COL_MID -->' in line: in_right = True
+        if '<!-- COL_END -->' in line: in_right = False
+        if in_right and len(line) > 100:
+            print(f'{f}:{i} ({len(line)}ch): {line[:80]}')
+PYEOF
+```
