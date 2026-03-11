@@ -112,4 +112,20 @@ permalink: /sitemap.xml
   <url><loc>https://math-explanation-site-v2.pages.dev/coord-region-inequality/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/coord-region-system/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/coord-region-max-min/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/sequences/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-basics/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-arithmetic/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-geometric/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-sum-general/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-sum/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-sigma/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-sum-technique/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-partial-fraction/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-recurrence/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-recur-basic/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-recur-linear/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-recur-fn/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-pattern/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-difference/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/seq-group/</loc></url>
 </urlset>
