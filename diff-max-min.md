@@ -5,7 +5,7 @@ permalink: /diff-max-min/
 description: "微分を使って閉区間での最大値・最小値を求める方法を解説。端点も候補になる理由、文字係数を含む場合の場合分けの立て方まで。全2記事・解説PDF付き（高校数II）。"
 ---
 
-← [サイトトップへ](/)　／　[微分](/differential/)
+← [関数の増減と極値のグラフ](/diff-graph/)　／　[微分](/differential/)　／　→ [接線と法線](/diff-tangent/)
 
 ---
 
@@ -57,4 +57,4 @@ description: "微分を使って閉区間での最大値・最小値を求める
 
 ---
 
-← [サイトトップへ](/)　／　[微分](/differential/)
+← [関数の増減と極値のグラフ](/diff-graph/)　／　[微分](/differential/)　／　→ [接線と法線](/diff-tangent/)

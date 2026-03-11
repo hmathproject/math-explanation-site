@@ -76,4 +76,11 @@ permalink: /sitemap.xml
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min-closed/</loc></url>
   <url><loc>https://math-explanation-site-v2.pages.dev/diff-max-min-param/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-tangent/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-tangent-line/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-tangent-external/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-normal-line/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-application/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-equation-roots/</loc></url>
+  <url><loc>https://math-explanation-site-v2.pages.dev/diff-inequality-proof/</loc></url>
 </urlset>
