@@ -91,8 +91,10 @@ commit する前に全項目を確認してください。
 □ 絶対値: \left| ... \right| か |...| を使っている（\left と \right が対になっている）
 □ 不要な小数なし（計算結果・代入値・検証値はすべて分数か整数で表記）
 □ 右欄説明ボックス内の長い行（文字列 + インライン数式の混在）を改行・段落分割している
+□ 右欄 display 数式が1行に収まる長さか確認（長い場合は \[...\] を2ブロックに分割）
 □ 表示幅が広い数式（複数の \frac が並ぶ等）は display（\[...\]）で表記している
 □ Unicode 数学記号（≤ ≥ √ ∈）を使っていない（FP-12: \( \leq \) 等に変換）
+□ 区間表記として [ ] ( ) を reader-facing 本文で使っていない（閉区間は \( a \leq x \leq b \)、開区間は \( a < x < b \) に統一）
 ```
 
 **grep 再点検コマンド:**
@@ -109,6 +111,36 @@ for f in sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
             a = line[m.end():]
             if a and a[0] not in '|([{.\\\\ ':
                 print(f'{f}:{i}: {line.strip()[:80]}')
+"
+
+# FP-18: reader-facing 区間括弧表記（manuscript）
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if re.search(r'\\\\left\[[-\d]', line):
+            print(f'{f.name}:{i}: {line.strip()[:100]}')
+"
+
+# FP-18: reader-facing 区間括弧表記（web）
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('site').glob('integ-*.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if re.search(r'\[[-0-9],', line):
+            print(f'{f.name}:{i}: {line.strip()[:100]}')
+"
+
+# FP-17: 右欄 100ch 超の長行
+python3 -c "
+import pathlib
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*.md')):
+    in_right = False
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if '<!-- COL_MID -->' in line: in_right = True
+        elif '<!-- COL_END -->' in line or '<!-- COL_LEFT_BEGIN -->' in line: in_right = False
+        elif in_right and len(line.rstrip()) > 100:
+            print(f'{f.name}:{i} ({len(line.rstrip())}ch): {line.strip()[:90]}')
 "
 ```
 

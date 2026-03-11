@@ -223,19 +223,38 @@ python3 scripts/quality_check.py
 
 ---
 
-## FP-14: 区間表記 [a,b] のブラケット残存
+## FP-14: 区間表記のブラケット残存（閉区間・開区間・半開区間すべて）
 
-**症状:** 閉区間を \\( [0,3] \\) や 区間 [a,b] のように角括弧で表記する。
+**症状:** 閉区間を \\( [0,3] \\)、開区間を \\( (-1,1) \\) のように括弧記号で表記する。
 
-**正しい統一形式:**
-- 閉区間: \\( 0 \leq x \leq 3 \\) のように不等号で表す
-- 開区間: (a, b) 形式はそのまま（変換不要）
+**正しい統一形式（全種類）:**
+- 閉区間 \[a,b\]: \\( a \leq x \leq b \\)
+- 開区間 (a,b): \\( a < x < b \\)
+- 半開区間 \[a,b): \\( a \leq x < b \\)
+- 半開区間 (a,b\]: \\( a < x \leq b \\)
 
-**ルール:** reader-facing テキスト・問題文・説明文で区間を表すとき、閉区間は `\leq` を使う。
+**ルール:** reader-facing テキスト・問題文・説明文で区間を表すとき、閉/開/半開を問わず**括弧記法を一切使わない**。すべて不等号形式に統一する。
+定積分の積分記号 \\( \int_a^b \\) は別途管理であり、このルールの対象外。
 
 **検知:**
 ```bash
-grep -n '\[[0-9-][^]]*\]' site/*.md | grep -v '](http' | grep -v '/assets/'
+# manuscripts: \left[ の直後に数字が続く区間記法
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if re.search(r'\\\\left\[[-\d]', line):
+            print(f'{f.name}:{i}: {line.strip()[:100]}')
+"
+
+# web: [number, で始まる区間記法
+python3 -c "
+import re, pathlib
+for f in sorted(pathlib.Path('site').glob('integ-*.md')):
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if re.search(r'\[[-0-9],', line):
+            print(f'{f.name}:{i}: {line.strip()[:100]}')
+"
 ```
 
 ---
@@ -338,4 +357,35 @@ for f in sorted(pathlib.Path('manuscripts').glob('積分_*_integrated_exp.md')):
         if in_right and len(line) > 100:
             print(f'{f}:{i} ({len(line)}ch): {line[:80]}')
 PYEOF
+```
+
+---
+
+## FP-18: 右欄 display 数式の横幅 overflow
+
+**症状:** PDF の右欄（COL_MID〜COL_END）に書いた `\[...\]` display 数式が1行に収まらず、右端が切れる（例: `= 9 - 27/2 =` で行末に消える）。
+
+**原因:** 右欄の幅は本文幅の約 45% しかなく、display math も1行で組版される。長い計算確認式（`= ... = ... = ...` と等号が続く）を1つの `\[...\]` ブロックに詰めると overflow が生じる。
+
+**対策:**
+- 右欄の display 式が長い場合（src 行 80ch 超）は `\[...\]` を複数のブロックに分割する
+- 例: `\[ A = B = C = D \]` → `\[ A = B \]` + `\[ = C = D \]`
+- 等号の続く確認計算は特に注意（`= F(b) - F(a) = ... = ...` のような1行3ステップ）
+- `\\` を使った多行 `align` 等は TeX の設定次第。分割 `\[...\]` の方が安全
+
+**検知（src 行長 > 80ch の右欄 display math）:**
+```bash
+python3 -c "
+import pathlib, re
+for f in sorted(pathlib.Path('manuscripts').glob('積分_*.md')):
+    in_right = in_display = False
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if '<!-- COL_MID -->' in line: in_right = True
+        elif '<!-- COL_END -->' in line or '<!-- COL_LEFT_BEGIN -->' in line: in_right = False
+        if in_right:
+            if re.match(r'\s*\\\[', line): in_display = True
+            elif re.match(r'\s*\\\]', line): in_display = False
+            elif in_display and len(line.rstrip()) > 80:
+                print(f'{f.name}:{i} ({len(line.rstrip())}ch): {line.strip()[:90]}')
+"
 ```
